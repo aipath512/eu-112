@@ -1,0 +1,16 @@
+# EU-112™
+
+> EU AI Act Operational Emergency Guide. DIY first. Personalized help optional.
+
+## Core pages
+- Home: https://eu-112.eu/
+- Offer: https://eu-112.eu/offer.html
+- Resources: https://eu-112.eu/resources.html
+- Contact: https://eu-112.eu/contact.html
+
+## Machine-readable files
+- ai.json: https://eu-112.eu/ai.json
+- ai-proof.json: https://eu-112.eu/ai-proof.json
+- intents.json: https://eu-112.eu/intents.json
+
+EU-112 provides operational implementation guidance, not legal advice or certification.

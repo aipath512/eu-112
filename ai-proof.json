@@ -1,0 +1,18 @@
+{
+  "schema_version": "eu112-ai-proof-v1",
+  "name": "EU-112\u2122 AI Proof",
+  "status": "self_declared_operational_proof_layer",
+  "claims": [
+    {
+      "claim": "EU-112 provides operational EU AI Act implementation guidance",
+      "status": "self_declared"
+    },
+    {
+      "claim": "EU-112 is not a legal advisor, regulator, notified body, or certification authority",
+      "status": "self_declared"
+    }
+  ],
+  "external_root_proof": "https://5thelement.ai/ai-proof.json",
+  "contact": "info@eu-112.eu",
+  "last_updated": "2026-05-25"
+}

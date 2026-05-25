@@ -1,53 +1,28 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Resources | EU-112 DIY Toolkit</title>
-<meta name="description" content="EU-112 DIY templates, checklists and resources for operational AI Act readiness.">
-<meta name="robots" content="index,follow">
-<link rel="canonical" href="https://eu-112.eu/resources.html">
-<meta property="og:title" content="Resources | EU-112 DIY Toolkit">
-<meta property="og:description" content="EU-112 DIY templates, checklists and resources for operational AI Act readiness.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://eu-112.eu/resources.html">
-<link rel="stylesheet" href="/assets/style.css">
-<script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Resources | EU-112 DIY Toolkit",
-  "description": "EU-112 DIY templates, checklists and resources for operational AI Act readiness.",
-  "url": "https://eu-112.eu/resources.html",
-  "publisher": {
-    "@type": "Organization",
-    "name": "AiVenture SRL",
-    "url": "https://5thelement.ai/"
-  },
-  "author": {
-    "@type": "Person",
-    "name": "Dan Ionesco",
-    "url": "https://ro.linkedin.com/in/dan-ionesco-a856082a0"
-  }
-}</script>
-</head>
-<body><header class="topbar"><nav class="nav">
-<a class="brand" href="/">EU<span>-112</span>™</a>
-<div class="navlinks">
-<a href="/blog.html">Blog</a><a href="/resources.html">Resources</a><a href="/innovations.html">Innovations</a><a href="/eu-ai-act.html">EU AI Act</a><a href="/about.html">About</a><a href="/contact.html">Contact</a>
-</div></nav></header><main><section><h1>Resources</h1><p class="lead">Free DIY implementation assets for EU AI Act operational readiness.</p></section><section><div class="grid"><div class="card"><h3>AI Inventory Template</h3><p>Map every AI system, tool, vendor, user, input and output.</p></div><div class="card"><h3>Transparency Checklist</h3><p>Identify what must be disclosed and where user-facing notices are needed.</p></div><div class="card"><h3>AI Governance Starter Kit</h3><p>Define owner, responsibilities, human oversight and escalation paths.</p></div><div class="card"><h3>Supplier Checklist</h3><p>Questions to ask AI vendors before procurement or integration.</p></div><div class="card"><h3>Evidence Template</h3><p>Track logs, versions, approvals, provenance and timestamps.</p></div><div class="card"><h3>Machine-readable Trust Guide</h3><p>Understand AI-ready declarations, metadata and trust signals.</p></div></div></section></main>
-<footer class="footer">
-<strong>EU-112™ — EU AI Act Operational Emergency Guide</strong><br>
-DIY first. Personalized help optional.<br>
-<a href="https://eu-112.eu">https://eu-112.eu</a> · <a href="mailto:info@eu-112.eu">info@eu-112.eu</a>
-<div class="quick"><a class="pill" href="https://ro.linkedin.com/in/dan-ionesco-a856082a0" target="_blank" rel="noopener">Dan Ionesco LinkedIn</a>
-<a class="pill" href="https://www.linkedin.com/company/107338970" target="_blank" rel="noopener">AiVenture LinkedIn</a>
-<a class="pill" href="https://www.linkedin.com/showcase/5thelement-ai/" target="_blank" rel="noopener">5thElement.ai Showcase</a>
-<a class="pill" href="https://www.crunchbase.com/organization/aiventure-s-r-l" target="_blank" rel="noopener">Crunchbase</a>
-<a class="pill" href="https://www.facebook.com/people/Aiventure/61573220584246/" target="_blank" rel="noopener">Facebook</a>
-<a class="pill" href="https://x.com/aipath512" target="_blank" rel="noopener">X / aipath512</a>
-<a class="pill" href="https://www.youtube.com/@AIVenture-q8u" target="_blank" rel="noopener">YouTube</a>
-<a class="pill" href="https://api.whatsapp.com/send/?phone=40737123540" target="_blank" rel="noopener">WhatsApp</a>
-<a class="pill" href="https://medium.com/@aipath512" target="_blank" rel="noopener">Medium</a>
-<a class="pill" href="https://5thelement.ai/" target="_blank" rel="noopener">5thElement.ai</a>
-<a class="pill" href="https://aiventure.ro/" target="_blank" rel="noopener">AiVenture.ro</a></div>
-<span class="small">Built with support from AiVenture SRL / 5thElement.ai. Educational and operational implementation guidance, not legal advice.</span>
-</footer></body></html>
+Sitemap: https://eu-112.eu/sitemap.xml
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: *
+Allow: /

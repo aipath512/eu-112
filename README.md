@@ -1,53 +1,6 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Privacy Policy | EU-112</title>
-<meta name="description" content="EU-112 privacy policy.">
-<meta name="robots" content="index,follow">
-<link rel="canonical" href="https://eu-112.eu/privacy.html">
-<meta property="og:title" content="Privacy Policy | EU-112">
-<meta property="og:description" content="EU-112 privacy policy.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://eu-112.eu/privacy.html">
-<link rel="stylesheet" href="/assets/style.css">
-<script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Privacy Policy | EU-112",
-  "description": "EU-112 privacy policy.",
-  "url": "https://eu-112.eu/privacy.html",
-  "publisher": {
-    "@type": "Organization",
-    "name": "AiVenture SRL",
-    "url": "https://5thelement.ai/"
-  },
-  "author": {
-    "@type": "Person",
-    "name": "Dan Ionesco",
-    "url": "https://ro.linkedin.com/in/dan-ionesco-a856082a0"
-  }
-}</script>
-</head>
-<body><header class="topbar"><nav class="nav">
-<a class="brand" href="/">EU<span>-112</span>™</a>
-<div class="navlinks">
-<a href="/blog.html">Blog</a><a href="/resources.html">Resources</a><a href="/innovations.html">Innovations</a><a href="/eu-ai-act.html">EU AI Act</a><a href="/about.html">About</a><a href="/contact.html">Contact</a>
-</div></nav></header><main><section><h1>Privacy Policy</h1><p class='lead'>EU-112 minimizes data collection and uses contact information only to respond to inquiries, deliver requested resources and provide implementation communication.</p></section><section><h2>Data</h2><p>Potential data: name, email, company, country, implementation request and analytics data.</p></section></main>
-<footer class="footer">
-<strong>EU-112™ — EU AI Act Operational Emergency Guide</strong><br>
-DIY first. Personalized help optional.<br>
-<a href="https://eu-112.eu">https://eu-112.eu</a> · <a href="mailto:info@eu-112.eu">info@eu-112.eu</a>
-<div class="quick"><a class="pill" href="https://ro.linkedin.com/in/dan-ionesco-a856082a0" target="_blank" rel="noopener">Dan Ionesco LinkedIn</a>
-<a class="pill" href="https://www.linkedin.com/company/107338970" target="_blank" rel="noopener">AiVenture LinkedIn</a>
-<a class="pill" href="https://www.linkedin.com/showcase/5thelement-ai/" target="_blank" rel="noopener">5thElement.ai Showcase</a>
-<a class="pill" href="https://www.crunchbase.com/organization/aiventure-s-r-l" target="_blank" rel="noopener">Crunchbase</a>
-<a class="pill" href="https://www.facebook.com/people/Aiventure/61573220584246/" target="_blank" rel="noopener">Facebook</a>
-<a class="pill" href="https://x.com/aipath512" target="_blank" rel="noopener">X / aipath512</a>
-<a class="pill" href="https://www.youtube.com/@AIVenture-q8u" target="_blank" rel="noopener">YouTube</a>
-<a class="pill" href="https://api.whatsapp.com/send/?phone=40737123540" target="_blank" rel="noopener">WhatsApp</a>
-<a class="pill" href="https://medium.com/@aipath512" target="_blank" rel="noopener">Medium</a>
-<a class="pill" href="https://5thelement.ai/" target="_blank" rel="noopener">5thElement.ai</a>
-<a class="pill" href="https://aiventure.ro/" target="_blank" rel="noopener">AiVenture.ro</a></div>
-<span class="small">Built with support from AiVenture SRL / 5thElement.ai. Educational and operational implementation guidance, not legal advice.</span>
-</footer></body></html>
+# EU-112 Luxury Complete Static Site v1
+
+Upload all files to GitHub repo root.
+Cloudflare Pages: Framework None, build command empty, output directory `/`.
+
+After every major section in index.html there is an INSERT NEW SECTION placeholder comment.

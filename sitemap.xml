@@ -1,28 +1,38 @@
-Sitemap: https://eu-112.eu/sitemap.xml
-
-User-agent: GPTBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: *
-Allow: /
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://eu-112.eu/bg.html</loc></url>
+  <url><loc>https://eu-112.eu/blog.html</loc></url>
+  <url><loc>https://eu-112.eu/contact.html</loc></url>
+  <url><loc>https://eu-112.eu/cookies.html</loc></url>
+  <url><loc>https://eu-112.eu/cs.html</loc></url>
+  <url><loc>https://eu-112.eu/da.html</loc></url>
+  <url><loc>https://eu-112.eu/de.html</loc></url>
+  <url><loc>https://eu-112.eu/el.html</loc></url>
+  <url><loc>https://eu-112.eu/es.html</loc></url>
+  <url><loc>https://eu-112.eu/et.html</loc></url>
+  <url><loc>https://eu-112.eu/eu-ai-act.html</loc></url>
+  <url><loc>https://eu-112.eu/fi.html</loc></url>
+  <url><loc>https://eu-112.eu/fr.html</loc></url>
+  <url><loc>https://eu-112.eu/ga.html</loc></url>
+  <url><loc>https://eu-112.eu/hr.html</loc></url>
+  <url><loc>https://eu-112.eu/hu.html</loc></url>
+  <url><loc>https://eu-112.eu/</loc></url>
+  <url><loc>https://eu-112.eu/innovations.html</loc></url>
+  <url><loc>https://eu-112.eu/it.html</loc></url>
+  <url><loc>https://eu-112.eu/lb.html</loc></url>
+  <url><loc>https://eu-112.eu/lt.html</loc></url>
+  <url><loc>https://eu-112.eu/lv.html</loc></url>
+  <url><loc>https://eu-112.eu/mt.html</loc></url>
+  <url><loc>https://eu-112.eu/nl.html</loc></url>
+  <url><loc>https://eu-112.eu/no.html</loc></url>
+  <url><loc>https://eu-112.eu/offer.html</loc></url>
+  <url><loc>https://eu-112.eu/pl.html</loc></url>
+  <url><loc>https://eu-112.eu/privacy.html</loc></url>
+  <url><loc>https://eu-112.eu/pt.html</loc></url>
+  <url><loc>https://eu-112.eu/resources.html</loc></url>
+  <url><loc>https://eu-112.eu/ro.html</loc></url>
+  <url><loc>https://eu-112.eu/sk.html</loc></url>
+  <url><loc>https://eu-112.eu/sl.html</loc></url>
+  <url><loc>https://eu-112.eu/sv.html</loc></url>
+  <url><loc>https://eu-112.eu/terms.html</loc></url>
+</urlset>

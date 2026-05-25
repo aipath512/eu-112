@@ -1,0 +1,5 @@
+EU-112™ AI Policy
+
+EU-112 allows good-faith AI crawlers to index public machine-readable content.
+This site provides operational EU AI Act implementation guidance, not legal advice or certification.
+Contact: info@eu-112.eu

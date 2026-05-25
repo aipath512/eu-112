@@ -1,0 +1,7 @@
+{
+  "schema_version": "eu112-authority-v1",
+  "name": "EU-112\u2122",
+  "owner": "AiVenture SRL",
+  "root_authority": "https://5thelement.ai/authority.json",
+  "contact": "info@eu-112.eu"
+}

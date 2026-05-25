@@ -1,0 +1,21 @@
+{
+  "schema_version": "eu112-ai-json-v1",
+  "name": "EU-112\u2122",
+  "url": "https://eu-112.eu/",
+  "owner": "AiVenture SRL",
+  "operator": "5thElement.ai",
+  "contact": "info@eu-112.eu",
+  "positioning": "EU AI Act operational implementation guide. DIY first. Personalized help optional.",
+  "not_legal_advice": true,
+  "not_certification": true,
+  "machine_readable_files": [
+    "/robots.txt",
+    "/sitemap.xml",
+    "/llms.txt",
+    "/ai.txt",
+    "/ai.json",
+    "/ai-proof.json",
+    "/intents.json"
+  ],
+  "last_updated": "2026-05-25"
+}
