@@ -1,0 +1,35 @@
+{
+  "schema_version": "eu112-actions-v1",
+  "site": "https://eu-112.eu/",
+  "name": "EU-112™",
+  "owner": "AiVenture SRL",
+  "operator": "5thElement.ai",
+  "contact": "info@eu-112.eu",
+  "updated": "2026-05-25",
+  "actions": [
+    {
+      "action_id": "start_free_diy",
+      "label": "Start Free DIY",
+      "url": "https://eu-112.eu/resources.html",
+      "type": "self_service"
+    },
+    {
+      "action_id": "request_support",
+      "label": "Request support at 49 EUR/hour",
+      "url": "https://eu-112.eu/contact.html",
+      "type": "assisted_diy"
+    },
+    {
+      "action_id": "read_blog",
+      "label": "Read daily implementation blog",
+      "url": "https://eu-112.eu/blog.html",
+      "type": "education"
+    },
+    {
+      "action_id": "inspect_ai_signals",
+      "label": "Inspect machine-readable AI signals",
+      "url": "https://eu-112.eu/ai.json",
+      "type": "machine_readable"
+    }
+  ]
+}

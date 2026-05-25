@@ -12,7 +12,13 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
+User-agent: Claude-SearchBot
+Allow: /
+
 User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
 Allow: /
 
 User-agent: Google-Extended
@@ -21,8 +27,43 @@ Allow: /
 User-agent: Googlebot
 Allow: /
 
+User-agent: Google-InspectionTool
+Allow: /
+
 User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: DeepSeekBot
 Allow: /
 
 User-agent: *
 Allow: /
+
+# AI discovery
+AI-Policy: https://eu-112.eu/ai.json
+AI-Proof: https://eu-112.eu/ai-proof.json
+LLMs: https://eu-112.eu/llms.txt

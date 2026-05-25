@@ -1,0 +1,18 @@
+{
+  "schema_version": "eu112-session-v1",
+  "site": "https://eu-112.eu/",
+  "name": "EU-112™",
+  "owner": "AiVenture SRL",
+  "operator": "5thElement.ai",
+  "contact": "info@eu-112.eu",
+  "updated": "2026-05-25",
+  "session_id": "000001C",
+  "environment_state": "C",
+  "state_meaning": {
+    "C": "current working session",
+    "H": "frozen immutable version after validation",
+    "T": "test version before promotion"
+  },
+  "current_release": "eu-112-ai-signals-upgraded-v2",
+  "status": "active_working_version"
+}

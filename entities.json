@@ -1,0 +1,61 @@
+{
+  "schema_version": "eu112-entities-v1",
+  "site": "https://eu-112.eu/",
+  "name": "EU-112™",
+  "owner": "AiVenture SRL",
+  "operator": "5thElement.ai",
+  "contact": "info@eu-112.eu",
+  "updated": "2026-05-25",
+  "primary_entity": {
+    "type": "Project",
+    "name": "EU-112™",
+    "alternate_names": [
+      "EU112",
+      "EU 112",
+      "EU AI Act Emergency 112",
+      "EU AI Act Operational Emergency Guide"
+    ],
+    "description": "EU-112™ is a DIY-first operational implementation platform for EU AI Act readiness, machine-readable transparency, AI governance, and AI evidence."
+  },
+  "organizations": [
+    {
+      "name": "AiVenture SRL",
+      "role": "owner_operator",
+      "url": "https://aiventure.ro/",
+      "cui": "51415878",
+      "euid": "ROONRC.J2025016406000"
+    },
+    {
+      "name": "5thElement.ai",
+      "role": "flagship_ai_first_platform",
+      "url": "https://5thelement.ai/"
+    }
+  ],
+  "person": {
+    "name": "Dan Ionesco",
+    "role": "author_operator",
+    "url": "https://ro.linkedin.com/in/dan-ionesco-a856082a0"
+  },
+  "core_concepts": [
+    "EU AI Act operational implementation",
+    "machine-readable transparency",
+    "AI governance",
+    "AI inventory",
+    "AI evidence and traceability",
+    "machine-readable trust",
+    "AI-READY infrastructure",
+    "DIY AI Act readiness",
+    "procurement readiness"
+  ],
+  "sameAs": [
+    "https://5thelement.ai/",
+    "https://aiventure.ro/",
+    "https://www.linkedin.com/company/107338970",
+    "https://www.linkedin.com/showcase/5thelement-ai/",
+    "https://ro.linkedin.com/in/dan-ionesco-a856082a0",
+    "https://www.crunchbase.com/organization/aiventure-s-r-l",
+    "https://medium.com/@aipath512",
+    "https://www.youtube.com/@AIVenture-q8u",
+    "https://x.com/aipath512"
+  ]
+}

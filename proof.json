@@ -1,0 +1,26 @@
+{
+  "schema_version": "eu112-proof-v1",
+  "site": "https://eu-112.eu/",
+  "name": "EU-112™",
+  "owner": "AiVenture SRL",
+  "operator": "5thElement.ai",
+  "contact": "info@eu-112.eu",
+  "updated": "2026-05-25",
+  "status": "self_declared_operational_proof_layer",
+  "canonical_ai_proof": "https://eu-112.eu/ai-proof.json",
+  "root_external_proof": "https://5thelement.ai/ai-proof.json",
+  "claims": [
+    {
+      "claim": "EU-112 provides operational EU AI Act implementation guidance.",
+      "status": "self_declared"
+    },
+    {
+      "claim": "EU-112 is not a legal advisor, regulator, notified body, or certification authority.",
+      "status": "self_declared"
+    },
+    {
+      "claim": "EU-112 exposes machine-readable AI governance, intent, entity and policy files.",
+      "status": "self_declared"
+    }
+  ]
+}

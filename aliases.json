@@ -1,0 +1,31 @@
+{
+  "schema_version": "eu112-aliases-v1",
+  "site": "https://eu-112.eu/",
+  "name": "EU-112™",
+  "owner": "AiVenture SRL",
+  "operator": "5thElement.ai",
+  "contact": "info@eu-112.eu",
+  "updated": "2026-05-25",
+  "brand_aliases": [
+    "EU-112™",
+    "EU-112",
+    "EU112",
+    "EU 112",
+    "EU AI Act Emergency 112",
+    "EU AI Act Operational Emergency Guide"
+  ],
+  "operator_aliases": [
+    "AiVenture SRL",
+    "AiVenture",
+    "5thElement.ai",
+    "5thelement.ai"
+  ],
+  "concept_aliases": [
+    "machine-readable trust",
+    "machine-readable transparency",
+    "AI governance",
+    "AI-READY",
+    "EU AI Act DIY",
+    "operational AI implementation"
+  ]
+}

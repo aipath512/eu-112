@@ -1,0 +1,21 @@
+{
+  "schema_version": "eu112-changelog-v1",
+  "site": "https://eu-112.eu/",
+  "name": "EU-112™",
+  "owner": "AiVenture SRL",
+  "operator": "5thElement.ai",
+  "contact": "info@eu-112.eu",
+  "updated": "2026-05-25",
+  "changes": [
+    {
+      "version": "v2",
+      "date": "2026-05-25",
+      "summary": "Added missing AI/AEO/GEO signals, stronger robots allow-lane, entity graph, aliases, actions, session, proof alias, and answer-first schema."
+    },
+    {
+      "version": "v1",
+      "date": "2026-05-25",
+      "summary": "Initial luxury black static site with AI files and placeholder language pages."
+    }
+  ]
+}

@@ -1,25 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://eu-112.eu/actions.json</loc></url>
+  <url><loc>https://eu-112.eu/ai-proof.json</loc></url>
+  <url><loc>https://eu-112.eu/ai.json</loc></url>
+  <url><loc>https://eu-112.eu/ai.txt</loc></url>
+  <url><loc>https://eu-112.eu/aliases.json</loc></url>
+  <url><loc>https://eu-112.eu/allow-lane-matrix.json</loc></url>
+  <url><loc>https://eu-112.eu/authority.json</loc></url>
   <url><loc>https://eu-112.eu/bg.html</loc></url>
   <url><loc>https://eu-112.eu/blog.html</loc></url>
+  <url><loc>https://eu-112.eu/changelog.json</loc></url>
   <url><loc>https://eu-112.eu/contact.html</loc></url>
   <url><loc>https://eu-112.eu/cookies.html</loc></url>
   <url><loc>https://eu-112.eu/cs.html</loc></url>
   <url><loc>https://eu-112.eu/da.html</loc></url>
   <url><loc>https://eu-112.eu/de.html</loc></url>
   <url><loc>https://eu-112.eu/el.html</loc></url>
+  <url><loc>https://eu-112.eu/entities.json</loc></url>
+  <url><loc>https://eu-112.eu/entity-graph.jsonld</loc></url>
   <url><loc>https://eu-112.eu/es.html</loc></url>
   <url><loc>https://eu-112.eu/et.html</loc></url>
   <url><loc>https://eu-112.eu/eu-ai-act.html</loc></url>
   <url><loc>https://eu-112.eu/fi.html</loc></url>
   <url><loc>https://eu-112.eu/fr.html</loc></url>
   <url><loc>https://eu-112.eu/ga.html</loc></url>
+  <url><loc>https://eu-112.eu/governance.json</loc></url>
   <url><loc>https://eu-112.eu/hr.html</loc></url>
   <url><loc>https://eu-112.eu/hu.html</loc></url>
   <url><loc>https://eu-112.eu/</loc></url>
   <url><loc>https://eu-112.eu/innovations.html</loc></url>
+  <url><loc>https://eu-112.eu/intents.json</loc></url>
   <url><loc>https://eu-112.eu/it.html</loc></url>
   <url><loc>https://eu-112.eu/lb.html</loc></url>
+  <url><loc>https://eu-112.eu/llms.txt</loc></url>
   <url><loc>https://eu-112.eu/lt.html</loc></url>
   <url><loc>https://eu-112.eu/lv.html</loc></url>
   <url><loc>https://eu-112.eu/mt.html</loc></url>
@@ -27,10 +40,15 @@
   <url><loc>https://eu-112.eu/no.html</loc></url>
   <url><loc>https://eu-112.eu/offer.html</loc></url>
   <url><loc>https://eu-112.eu/pl.html</loc></url>
+  <url><loc>https://eu-112.eu/policy.json</loc></url>
   <url><loc>https://eu-112.eu/privacy.html</loc></url>
+  <url><loc>https://eu-112.eu/proof.json</loc></url>
   <url><loc>https://eu-112.eu/pt.html</loc></url>
   <url><loc>https://eu-112.eu/resources.html</loc></url>
   <url><loc>https://eu-112.eu/ro.html</loc></url>
+  <url><loc>https://eu-112.eu/robots.txt</loc></url>
+  <url><loc>https://eu-112.eu/session.json</loc></url>
+  <url><loc>https://eu-112.eu/sitemap.xml</loc></url>
   <url><loc>https://eu-112.eu/sk.html</loc></url>
   <url><loc>https://eu-112.eu/sl.html</loc></url>
   <url><loc>https://eu-112.eu/sv.html</loc></url>

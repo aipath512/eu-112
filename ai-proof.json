@@ -1,6 +1,6 @@
 {
   "schema_version": "eu112-ai-proof-v1",
-  "name": "EU-112\u2122 AI Proof",
+  "name": "EU-112™ AI Proof",
   "status": "self_declared_operational_proof_layer",
   "claims": [
     {
@@ -14,5 +14,26 @@
   ],
   "external_root_proof": "https://5thelement.ai/ai-proof.json",
   "contact": "info@eu-112.eu",
-  "last_updated": "2026-05-25"
+  "last_updated": "2026-05-25",
+  "canonical_alias": "https://eu-112.eu/proof.json",
+  "machine_readable_evidence_files": [
+    "/robots.txt",
+    "/sitemap.xml",
+    "/llms.txt",
+    "/ai.txt",
+    "/ai.json",
+    "/ai-proof.json",
+    "/proof.json",
+    "/intents.json",
+    "/entities.json",
+    "/entity-graph.jsonld",
+    "/authority.json",
+    "/governance.json",
+    "/policy.json",
+    "/allow-lane-matrix.json",
+    "/actions.json",
+    "/aliases.json",
+    "/session.json",
+    "/changelog.json"
+  ]
 }

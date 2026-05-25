@@ -1,6 +1,6 @@
 {
   "schema_version": "eu112-ai-json-v1",
-  "name": "EU-112\u2122",
+  "name": "EU-112™",
   "url": "https://eu-112.eu/",
   "owner": "AiVenture SRL",
   "operator": "5thElement.ai",
@@ -15,7 +15,29 @@
     "/ai.txt",
     "/ai.json",
     "/ai-proof.json",
-    "/intents.json"
+    "/proof.json",
+    "/intents.json",
+    "/entities.json",
+    "/entity-graph.jsonld",
+    "/authority.json",
+    "/governance.json",
+    "/policy.json",
+    "/allow-lane-matrix.json",
+    "/actions.json",
+    "/aliases.json",
+    "/session.json",
+    "/changelog.json"
   ],
-  "last_updated": "2026-05-25"
+  "last_updated": "2026-05-25",
+  "entity_files": {
+    "entities": "/entities.json",
+    "entity_graph": "/entity-graph.jsonld",
+    "aliases": "/aliases.json"
+  },
+  "ai_crawler_policy": "explicit_allow_lane_for_good_faith_ai_crawlers",
+  "service_offer": {
+    "free_diy": "0 EUR",
+    "support": "49 EUR/hour",
+    "done_for_you": "available by request"
+  }
 }

@@ -1,16 +1,46 @@
 # EU-112™
 
-> EU AI Act Operational Emergency Guide. DIY first. Personalized help optional.
+> EU AI Act Operational Emergency Guide. Full free software solution. DIY first. Personalized help optional.
+
+## Direct answer
+EU-112™ helps European firms start EU AI Act operational readiness through free DIY resources, 500 operational Q&A, 26 language placeholders, AI chatbot/voice-ready guidance, machine-readable governance, AI transparency, procurement readiness, AI inventory, oversight, evidence and traceability.
 
 ## Core pages
 - Home: https://eu-112.eu/
 - Offer: https://eu-112.eu/offer.html
 - Resources: https://eu-112.eu/resources.html
+- Blog: https://eu-112.eu/blog.html
+- EU AI Act: https://eu-112.eu/eu-ai-act.html
+- Innovations: https://eu-112.eu/innovations.html
 - Contact: https://eu-112.eu/contact.html
 
 ## Machine-readable files
+- robots.txt: https://eu-112.eu/robots.txt
+- sitemap.xml: https://eu-112.eu/sitemap.xml
+- ai.txt: https://eu-112.eu/ai.txt
 - ai.json: https://eu-112.eu/ai.json
 - ai-proof.json: https://eu-112.eu/ai-proof.json
+- proof.json: https://eu-112.eu/proof.json
 - intents.json: https://eu-112.eu/intents.json
+- entities.json: https://eu-112.eu/entities.json
+- entity-graph.jsonld: https://eu-112.eu/entity-graph.jsonld
+- governance.json: https://eu-112.eu/governance.json
+- policy.json: https://eu-112.eu/policy.json
+- allow-lane-matrix.json: https://eu-112.eu/allow-lane-matrix.json
+- actions.json: https://eu-112.eu/actions.json
+- aliases.json: https://eu-112.eu/aliases.json
+- session.json: https://eu-112.eu/session.json
+- changelog.json: https://eu-112.eu/changelog.json
 
-EU-112 provides operational implementation guidance, not legal advice or certification.
+## Positioning
+EU-112™ provides operational implementation guidance. It is not legal advice, a regulator, a notified body, or a certification authority.
+
+## Key concepts
+- machine-readable transparency
+- AI governance
+- AI evidence
+- AI inventory
+- traceability
+- procurement readiness
+- machine-readable trust
+- AI-READY infrastructure

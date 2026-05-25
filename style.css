@@ -17,3 +17,9 @@ a{color:var(--gold2);text-decoration:none}a:hover{text-decoration:underline}.con
 .faq,.glossary-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.faq-item,.glossary-term{padding:26px;border-radius:24px;background:rgba(255,255,255,.04);border:1px solid var(--line)}.faq-item h4,.glossary-term strong{display:block;color:var(--gold2);font-size:20px;margin-bottom:10px}.faq-item p,.glossary-term p{color:var(--muted);line-height:1.65}.glossary-term a{color:var(--gold2)}
 .footer{padding:80px 0;border-top:1px solid var(--line);background:#000;color:var(--muted)}.footer-grid{display:grid;grid-template-columns:1.2fr 2fr;gap:42px;align-items:start}.footer-logo{font-size:42px;font-weight:900;color:#fff;letter-spacing:-2px}.footer-logo span{color:var(--red2)}.footer-glossary{margin-top:60px;padding-top:50px;border-top:1px solid var(--line)}.footer-glossary h3{font-size:34px;color:var(--gold2);margin-bottom:26px}
 @media(max-width:1100px){.container{padding:0 24px}.nav-inner{height:auto;min-height:88px;align-items:flex-start;flex-direction:column;padding:18px 0}.nav-links{gap:14px}.hero h1{letter-spacing:-3px}.block-grid,.block-grid-2,.faq,.glossary-grid,.footer-grid{grid-template-columns:1fr}}
+
+.answer-box{margin:26px 0 44px;padding:28px;border-radius:28px;background:linear-gradient(135deg,rgba(215,180,106,.12),rgba(255,255,255,.035));border:1px solid var(--lineg)}
+.answer-box strong{color:var(--gold2)}
+.toc{margin:28px 0 56px;display:flex;flex-wrap:wrap;gap:10px}
+.toc a{display:inline-flex;border:1px solid var(--line);background:rgba(255,255,255,.045);color:#fff;border-radius:999px;padding:9px 13px;font-size:13px}
+.definition{border-left:3px solid var(--gold2);padding:16px 20px;background:rgba(255,255,255,.035);border-radius:0 18px 18px 0;margin:18px 0;color:var(--muted)}
