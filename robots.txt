@@ -2,21 +2,21 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Privacy Policy | EU-112</title>
-<meta name="description" content="EU-112 privacy policy.">
+<title>Resources | EU-112 DIY Toolkit</title>
+<meta name="description" content="EU-112 DIY templates, checklists and resources for operational AI Act readiness.">
 <meta name="robots" content="index,follow">
-<link rel="canonical" href="https://eu-112.eu/privacy.html">
-<meta property="og:title" content="Privacy Policy | EU-112">
-<meta property="og:description" content="EU-112 privacy policy.">
+<link rel="canonical" href="https://eu-112.eu/resources.html">
+<meta property="og:title" content="Resources | EU-112 DIY Toolkit">
+<meta property="og:description" content="EU-112 DIY templates, checklists and resources for operational AI Act readiness.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://eu-112.eu/privacy.html">
+<meta property="og:url" content="https://eu-112.eu/resources.html">
 <link rel="stylesheet" href="/assets/style.css">
 <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Privacy Policy | EU-112",
-  "description": "EU-112 privacy policy.",
-  "url": "https://eu-112.eu/privacy.html",
+  "name": "Resources | EU-112 DIY Toolkit",
+  "description": "EU-112 DIY templates, checklists and resources for operational AI Act readiness.",
+  "url": "https://eu-112.eu/resources.html",
   "publisher": {
     "@type": "Organization",
     "name": "AiVenture SRL",
@@ -33,7 +33,7 @@
 <a class="brand" href="/">EU<span>-112</span>™</a>
 <div class="navlinks">
 <a href="/blog.html">Blog</a><a href="/resources.html">Resources</a><a href="/innovations.html">Innovations</a><a href="/eu-ai-act.html">EU AI Act</a><a href="/about.html">About</a><a href="/contact.html">Contact</a>
-</div></nav></header><main><section><h1>Privacy Policy</h1><p class='lead'>EU-112 minimizes data collection and uses contact information only to respond to inquiries, deliver requested resources and provide implementation communication.</p></section><section><h2>Data</h2><p>Potential data: name, email, company, country, implementation request and analytics data.</p></section></main>
+</div></nav></header><main><section><h1>Resources</h1><p class="lead">Free DIY implementation assets for EU AI Act operational readiness.</p></section><section><div class="grid"><div class="card"><h3>AI Inventory Template</h3><p>Map every AI system, tool, vendor, user, input and output.</p></div><div class="card"><h3>Transparency Checklist</h3><p>Identify what must be disclosed and where user-facing notices are needed.</p></div><div class="card"><h3>AI Governance Starter Kit</h3><p>Define owner, responsibilities, human oversight and escalation paths.</p></div><div class="card"><h3>Supplier Checklist</h3><p>Questions to ask AI vendors before procurement or integration.</p></div><div class="card"><h3>Evidence Template</h3><p>Track logs, versions, approvals, provenance and timestamps.</p></div><div class="card"><h3>Machine-readable Trust Guide</h3><p>Understand AI-ready declarations, metadata and trust signals.</p></div></div></section></main>
 <footer class="footer">
 <strong>EU-112™ — EU AI Act Operational Emergency Guide</strong><br>
 DIY first. Personalized help optional.<br>
