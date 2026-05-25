@@ -1,0 +1,57 @@
+{
+  "schema_version": "eu112-ai-ready-score-v1",
+  "site": "https://eu-112.eu/",
+  "name": "EU-112™",
+  "owner": "AiVenture SRL",
+  "operator": "5thElement.ai",
+  "contact": "info@eu-112.eu",
+  "last_updated": "2026-05-25",
+  "score_type": "self_declared_operational_readiness_estimate",
+  "important_note": "This is a self-declared implementation readiness file, not a legal certification, regulator approval, or independent audit.",
+  "current_target_score_after_v2_deployment": {
+    "composite_expected_range": "50-65/100",
+    "ai_signals_expected_range": "55-70/100",
+    "aeo_expected_range": "45-60/100",
+    "geo_expected_range": "45-60/100",
+    "aio_expected_range": "45-65/100",
+    "seo_expected_range": "45-55/100"
+  },
+  "maturity_level": {
+    "current": "L2-L3 generated package",
+    "meaning": "Discovery, declaration, governance, entity and intent files generated; deployment and live verification still required."
+  },
+  "implemented_signals": [
+    "robots.txt",
+    "sitemap.xml",
+    "llms.txt",
+    "ai.txt",
+    "ai.json",
+    "ai-proof.json",
+    "proof.json",
+    "intents.json",
+    "entities.json",
+    "entity-graph.jsonld",
+    "authority.json",
+    "governance.json",
+    "policy.json",
+    "allow-lane-matrix.json",
+    "actions.json",
+    "aliases.json",
+    "session.json",
+    "changelog.json",
+    "answer-layer.json",
+    "knowledge-graph.json",
+    "howto-schema.jsonld"
+  ],
+  "still_needed_for_high_score": [
+    "Deploy all files live at root",
+    "Cloudflare HTTP Link headers",
+    "Real 500 Q&A corpus",
+    "Real translated localized content",
+    "Real OTS/SHA proof for EU-112 artifacts",
+    "External backlinks and citations",
+    "Search Console validation",
+    "Core Web Vitals optimization",
+    "Independent legal review if legal claims are added"
+  ]
+}

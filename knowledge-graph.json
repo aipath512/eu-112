@@ -1,0 +1,123 @@
+{
+  "schema_version": "eu112-knowledge-graph-v1",
+  "site": "https://eu-112.eu/",
+  "name": "EU-112™",
+  "owner": "AiVenture SRL",
+  "operator": "5thElement.ai",
+  "contact": "info@eu-112.eu",
+  "last_updated": "2026-05-25",
+  "nodes": [
+    {
+      "id": "eu112",
+      "type": "project",
+      "name": "EU-112™",
+      "description": "EU AI Act Operational Emergency Guide and DIY-first implementation platform."
+    },
+    {
+      "id": "aiventure",
+      "type": "organization",
+      "name": "AiVenture SRL",
+      "role": "owner_operator",
+      "url": "https://aiventure.ro/",
+      "identifiers": {
+        "CUI": "51415878",
+        "EUID": "ROONRC.J2025016406000"
+      }
+    },
+    {
+      "id": "5thelement",
+      "type": "brand_platform",
+      "name": "5thElement.ai",
+      "role": "flagship_ai_first_platform",
+      "url": "https://5thelement.ai/"
+    },
+    {
+      "id": "dan_ionesco",
+      "type": "person",
+      "name": "Dan Ionesco",
+      "role": "author_operator",
+      "url": "https://ro.linkedin.com/in/dan-ionesco-a856082a0"
+    },
+    {
+      "id": "eu_ai_act",
+      "type": "regulatory_topic",
+      "name": "EU AI Act",
+      "description": "European AI regulation structured around risk management, transparency, governance and accountability."
+    },
+    {
+      "id": "machine_readable_transparency",
+      "type": "concept",
+      "name": "Machine-readable transparency",
+      "description": "AI transparency expressed through structured files, metadata, schema and endpoints readable by humans and machines."
+    },
+    {
+      "id": "ai_governance",
+      "type": "concept",
+      "name": "AI governance",
+      "description": "Operational ownership, review, accountability, escalation and oversight for AI use."
+    },
+    {
+      "id": "ai_inventory",
+      "type": "concept",
+      "name": "AI inventory",
+      "description": "Structured map of AI tools, vendors, users, inputs, outputs, risks and responsibilities."
+    },
+    {
+      "id": "ai_evidence",
+      "type": "concept",
+      "name": "AI evidence and traceability",
+      "description": "Logs, versions, timestamps, provenance, approvals and documentation proving how AI is used."
+    }
+  ],
+  "edges": [
+    {
+      "from": "aiventure",
+      "relation": "operates",
+      "to": "eu112"
+    },
+    {
+      "from": "5thelement",
+      "relation": "supports",
+      "to": "eu112"
+    },
+    {
+      "from": "dan_ionesco",
+      "relation": "authors",
+      "to": "eu112"
+    },
+    {
+      "from": "eu112",
+      "relation": "addresses",
+      "to": "eu_ai_act"
+    },
+    {
+      "from": "eu112",
+      "relation": "implements",
+      "to": "machine_readable_transparency"
+    },
+    {
+      "from": "machine_readable_transparency",
+      "relation": "requires",
+      "to": "ai_governance"
+    },
+    {
+      "from": "ai_governance",
+      "relation": "requires",
+      "to": "ai_inventory"
+    },
+    {
+      "from": "ai_inventory",
+      "relation": "supports",
+      "to": "ai_evidence"
+    }
+  ],
+  "sameAs": [
+    "https://5thelement.ai/",
+    "https://aiventure.ro/",
+    "https://www.linkedin.com/company/107338970",
+    "https://www.linkedin.com/showcase/5thelement-ai/",
+    "https://www.crunchbase.com/organization/aiventure-s-r-l",
+    "https://medium.com/@aipath512",
+    "https://www.youtube.com/@AIVenture-q8u"
+  ]
+}

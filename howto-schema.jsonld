@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "@id": "https://eu-112.eu/#howto-start-eu-ai-act-readiness",
+  "name": "How to start EU AI Act operational readiness",
+  "description": "A practical operational sequence for firms starting EU AI Act readiness using EU-112™.",
+  "totalTime": "P7D",
+  "supply": [
+    {
+      "@type": "HowToSupply",
+      "name": "AI tools list"
+    },
+    {
+      "@type": "HowToSupply",
+      "name": "Vendor list"
+    },
+    {
+      "@type": "HowToSupply",
+      "name": "Responsible owner"
+    },
+    {
+      "@type": "HowToSupply",
+      "name": "Transparency notes"
+    },
+    {
+      "@type": "HowToSupply",
+      "name": "Evidence folder"
+    }
+  ],
+  "tool": [
+    {
+      "@type": "HowToTool",
+      "name": "EU-112™ DIY resources"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "AI inventory template"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Machine-readable governance files"
+    }
+  ],
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Create AI inventory",
+      "text": "List every AI tool, vendor, user, input, output and business process where AI is used."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Classify use and risk",
+      "text": "Identify whether each AI use is unacceptable, high-risk, limited-risk or minimal-risk."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Add transparency notices",
+      "text": "Clearly disclose AI-generated content, AI-assisted support, summaries, recommendations, voice, images or video."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Assign responsibility",
+      "text": "Define legal entity, owner, reviewer, contact point and escalation path."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Create evidence and traceability",
+      "text": "Maintain versions, timestamps, provenance, approvals, logs and documentation."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 6,
+      "name": "Publish machine-readable signals",
+      "text": "Deploy ai.json, ai-proof.json, intents.json, entities.json, governance.json, policy.json and llms.txt."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 7,
+      "name": "Review and improve",
+      "text": "Re-audit the site and improve missing AI signals, AEO, GEO, AIO and SEO."
+    }
+  ]
+}

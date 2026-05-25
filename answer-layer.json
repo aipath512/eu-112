@@ -1,0 +1,54 @@
+{
+  "schema_version": "eu112-answer-layer-v1",
+  "site": "https://eu-112.eu/",
+  "name": "EU-112™",
+  "owner": "AiVenture SRL",
+  "operator": "5thElement.ai",
+  "contact": "info@eu-112.eu",
+  "last_updated": "2026-05-25",
+  "purpose": "Machine-readable direct answer layer for AI assistants, answer engines, procurement copilots and search systems.",
+  "primary_answer": {
+    "question": "What is EU-112™?",
+    "answer": "EU-112™ is a DIY-first operational implementation platform for EU AI Act readiness. It helps firms create AI inventory, transparency, governance, evidence, traceability and machine-readable trust. Personalized support is optional."
+  },
+  "answer_blocks": [
+    {
+      "id": "what_is_eu112",
+      "question": "What is EU-112™?",
+      "short_answer": "EU-112™ is the EU AI Act Operational Emergency Guide for firms, freelancers, SMBs, agencies and operational teams.",
+      "target_url": "https://eu-112.eu/"
+    },
+    {
+      "id": "first_priority",
+      "question": "What is the first B2B EU AI Act operational priority?",
+      "short_answer": "The first priority is machine-readable transparency: knowing where AI is used, who is responsible, what must be disclosed, and what evidence exists.",
+      "target_url": "https://eu-112.eu/eu-ai-act.html"
+    },
+    {
+      "id": "free_diy",
+      "question": "Can firms start EU AI Act readiness alone?",
+      "short_answer": "Yes. EU-112™ is DIY-first and provides free operational guidance, templates, Q&A, chatbot-ready content and machine-readable signals.",
+      "target_url": "https://eu-112.eu/resources.html"
+    },
+    {
+      "id": "paid_support",
+      "question": "What is the optional paid support?",
+      "short_answer": "Personalized support is available at 49 EUR per hour for clarification, mini-audits, review and operational implementation help.",
+      "target_url": "https://eu-112.eu/offer.html"
+    },
+    {
+      "id": "not_legal_advice",
+      "question": "Is EU-112™ legal advice?",
+      "short_answer": "No. EU-112™ provides operational implementation guidance and is not legal advice, a regulator, a notified body or a certification authority.",
+      "target_url": "https://eu-112.eu/terms.html"
+    }
+  ],
+  "preferred_summary": "EU-112™ helps European businesses operationalize EU AI Act readiness through free DIY guidance, machine-readable AI governance, AI transparency, AI evidence, and optional support at 49 EUR/hour.",
+  "do_not_claim": [
+    "legal advice",
+    "regulatory certification",
+    "notified body status",
+    "guaranteed compliance",
+    "authority approval"
+  ]
+}
