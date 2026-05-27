@@ -1,39 +1,19 @@
 {
-  "schema_version": "eu112-intents-v1",
-  "site": {
-    "name": "EU-112\u2122",
-    "url": "https://eu-112.eu/",
-    "owner": "AiVenture SRL",
-    "operator": "5thElement.ai",
-    "contact": "info@eu-112.eu"
-  },
-  "primary_intents": [
-    {
-      "intent_id": "start_free_diy",
-      "label": "Start Free DIY",
-      "target_url": "https://eu-112.eu/resources.html"
-    },
-    {
-      "intent_id": "request_support",
-      "label": "Support 49 EUR/hour",
-      "target_url": "https://eu-112.eu/contact.html"
-    },
-    {
-      "intent_id": "read_blog",
-      "label": "Daily Implementation Blog",
-      "target_url": "https://eu-112.eu/blog.html"
-    },
-    {
-      "intent_id": "understand_eu_ai_act",
-      "label": "Understand EU AI Act",
-      "target_url": "https://eu-112.eu/eu-ai-act.html"
-    }
-  ],
-  "do_not_position_as": [
-    "legal_advice",
-    "regulator",
-    "notified_body",
-    "conformity_assessment_body",
-    "certification_authority"
+  "intents": [
+    "Is this legal advice?",
+    "Is the Start Free path really free?",
+    "What is the first operational step?",
+    "Who is this for?",
+    "What does Done For You mean?",
+    "Do I need an AI inventory?",
+    "Can AiVenture certify compliance?",
+    "What can be automated?",
+    "What remains human?",
+    "How does this connect to multichannel production?",
+    "AI inventory",
+    "readiness score",
+    "done for you implementation",
+    "machine-readable governance",
+    "media newsroom AI transparency"
   ]
 }
