@@ -2,20 +2,4 @@
 
 > Free software, support, and done-for-you implementation for AI inventory, governance, oversight, evidence and operational readiness.
 
-## Core pages
-- [Homepage](https://eu-ai-act-ready.eu/index.html)
-- [Start Free](https://eu-ai-act-ready.eu/start-free.html)
-- [Offer](https://eu-ai-act-ready.eu/offer.html)
-- [Guide: 50 Modules](https://eu-ai-act-ready.eu/guide.html)
-- [Blog](https://eu-ai-act-ready.eu/blog.html)
-- [Contact](https://eu-ai-act-ready.eu/contact.html)
-
-## Role pages
-- [Firm Owners](https://eu-ai-act-ready.eu/firm-owners.html)
-- [Marketing Agencies](https://eu-ai-act-ready.eu/marketing-agencies.html)
-- [Media Newsrooms](https://eu-ai-act-ready.eu/media-newsrooms.html)
-- [IT Departments](https://eu-ai-act-ready.eu/it-departments.html)
-- [Non-EU AI Providers](https://eu-ai-act-ready.eu/non-eu-ai-providers.html)
-
-## Boundaries
-Not legal advice. Not certification. Not a notified body. Operational readiness and evidence support only.
+Not legal advice. Not certification. Not a notified body.
