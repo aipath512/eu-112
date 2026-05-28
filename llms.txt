@@ -2,4 +2,13 @@
 
 > Free software, support, and done-for-you implementation for AI inventory, governance, oversight, evidence and operational readiness.
 
+## Core pages
+
+- Homepage: https://eu-112.eu/
+- Start Free: https://eu-112.eu/start-free.html
+- Offer: https://eu-112.eu/offer.html
+- Guide: https://eu-112.eu/guide.html
+
+## Boundary
+
 Not legal advice. Not certification. Not a notified body.
