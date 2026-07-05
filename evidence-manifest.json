@@ -1,0 +1,31 @@
+{
+  "canonical_url": "https://eu-112.eu",
+  "evidence_manifest_status": "v2 scaffold; client-specific evidence to be populated during implementation",
+  "artifacts": [
+    {
+      "id": "ai-inventory",
+      "status": "required",
+      "expected_location": "client RRVI repository or public evidence endpoint"
+    },
+    {
+      "id": "risk-assessment",
+      "status": "required",
+      "expected_location": "client RRVI repository or controlled document set"
+    },
+    {
+      "id": "oversight-records",
+      "status": "required",
+      "expected_location": "client evidence vault"
+    },
+    {
+      "id": "technical-documentation",
+      "status": "required",
+      "expected_location": "client technical documentation index"
+    },
+    {
+      "id": "transparency-records",
+      "status": "required",
+      "expected_location": "client website, product UI, or user-facing documentation"
+    }
+  ]
+}

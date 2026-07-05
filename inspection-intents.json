@@ -1,0 +1,42 @@
+{
+  "canonical_url": "https://eu-112.eu",
+  "method": "5W plus how inspection model",
+  "intents": [
+    {
+      "id": "INT-001",
+      "question": "Who uses AI in the organization?",
+      "route": "/required-facts.json#organization-ai-use",
+      "evidence": "/evidence-manifest.json#ai-inventory"
+    },
+    {
+      "id": "INT-002",
+      "question": "What AI systems, models, tools, or third-party dependencies exist?",
+      "route": "/required-facts.json#ai-systems",
+      "evidence": "/evidence-manifest.json#ai-inventory"
+    },
+    {
+      "id": "INT-003",
+      "question": "Where is AI used in business processes, products, services, or internal operations?",
+      "route": "/required-facts.json#business-processes",
+      "evidence": "/evidence-manifest.json#process-map"
+    },
+    {
+      "id": "INT-004",
+      "question": "Why is each AI system used and what decision or output does it influence?",
+      "route": "/required-facts.json#purpose-risk",
+      "evidence": "/evidence-manifest.json#use-case-register"
+    },
+    {
+      "id": "INT-005",
+      "question": "How is human oversight performed and recorded?",
+      "route": "/required-facts.json#human-oversight",
+      "evidence": "/evidence-manifest.json#oversight-records"
+    },
+    {
+      "id": "INT-006",
+      "question": "How are logs, technical documentation, transparency information, and evidence maintained?",
+      "route": "/regulatory-map.json",
+      "evidence": "/evidence-manifest.json"
+    }
+  ]
+}

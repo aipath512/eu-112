@@ -1,3 +1,11 @@
 User-agent: *
 Allow: /
 Sitemap: https://eu-112.eu/sitemap.xml
+
+# RRVI inspection entry points
+Allow: /inspection-gate.html
+Allow: /remote-verification.html
+Allow: /rrvi.json
+Allow: /ncc.json
+Allow: /inspection-routes.json
+Allow: /evidence-manifest.json

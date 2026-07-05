@@ -1,0 +1,53 @@
+{
+  "canonical_url": "https://eu-112.eu",
+  "required_facts": [
+    {
+      "id": "organization-ai-use",
+      "facts": [
+        "organization identity",
+        "AI role: provider/deployer/importer/distributor",
+        "AI ownership and accountable person"
+      ]
+    },
+    {
+      "id": "ai-systems",
+      "facts": [
+        "AI system name",
+        "vendor/provider",
+        "model dependency",
+        "data categories",
+        "usage context",
+        "status"
+      ]
+    },
+    {
+      "id": "business-processes",
+      "facts": [
+        "process name",
+        "business owner",
+        "AI touchpoint",
+        "affected users",
+        "geography"
+      ]
+    },
+    {
+      "id": "purpose-risk",
+      "facts": [
+        "intended purpose",
+        "foreseeable misuse",
+        "risk category",
+        "high-risk trigger check",
+        "prohibited practice check"
+      ]
+    },
+    {
+      "id": "human-oversight",
+      "facts": [
+        "oversight owner",
+        "review step",
+        "approval record",
+        "escalation path"
+      ]
+    }
+  ]
+}

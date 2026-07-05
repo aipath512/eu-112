@@ -1,0 +1,45 @@
+{
+  "canonical_url": "https://eu-112.eu",
+  "required_proof": [
+    {
+      "id": "ai-inventory",
+      "proof_types": [
+        "AI inventory register",
+        "vendor dependency list",
+        "API gateway or SaaS usage logs"
+      ]
+    },
+    {
+      "id": "risk-assessment",
+      "proof_types": [
+        "risk classification record",
+        "high-risk assessment decision",
+        "prohibited practices checklist"
+      ]
+    },
+    {
+      "id": "human-oversight",
+      "proof_types": [
+        "oversight procedure",
+        "review logs",
+        "training records"
+      ]
+    },
+    {
+      "id": "technical-documentation",
+      "proof_types": [
+        "technical documentation index",
+        "model cards or vendor documents",
+        "data governance evidence"
+      ]
+    },
+    {
+      "id": "transparency",
+      "proof_types": [
+        "user notices",
+        "AI disclosure text",
+        "communication records"
+      ]
+    }
+  ]
+}

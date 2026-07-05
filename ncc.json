@@ -1,0 +1,24 @@
+{
+  "id": "ncc-eu112-v1",
+  "name": "Normative Compliance Compiler™",
+  "canonical_url": "https://eu-112.eu",
+  "compiler_flow": [
+    "regulatory_obligation",
+    "inspection_intent",
+    "required_fact",
+    "required_proof",
+    "control",
+    "evidence_artifact",
+    "generated_view",
+    "document"
+  ],
+  "rule": "Documents are generated views of facts and evidence, not the primary source of truth.",
+  "double_loop": "Facts and evidence are iteratively checked against obligations and inspection questions until inconsistencies are resolved.",
+  "outputs": [
+    "inspection report",
+    "compliance score",
+    "evidence gap list",
+    "document set",
+    "remote inspection view"
+  ]
+}

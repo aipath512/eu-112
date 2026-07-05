@@ -1,0 +1,59 @@
+{
+  "canonical_url": "https://eu-112.eu",
+  "regulatory_map": [
+    {
+      "area": "AI inventory and scope",
+      "inspection_intents": [
+        "INT-001",
+        "INT-002",
+        "INT-003"
+      ],
+      "required_facts": [
+        "organization-ai-use",
+        "ai-systems",
+        "business-processes"
+      ],
+      "required_proof": [
+        "ai-inventory"
+      ]
+    },
+    {
+      "area": "Risk classification",
+      "inspection_intents": [
+        "INT-004"
+      ],
+      "required_facts": [
+        "purpose-risk"
+      ],
+      "required_proof": [
+        "risk-assessment"
+      ]
+    },
+    {
+      "area": "Human oversight",
+      "inspection_intents": [
+        "INT-005"
+      ],
+      "required_facts": [
+        "human-oversight"
+      ],
+      "required_proof": [
+        "human-oversight"
+      ]
+    },
+    {
+      "area": "Documentation and transparency",
+      "inspection_intents": [
+        "INT-006"
+      ],
+      "required_facts": [
+        "ai-systems",
+        "purpose-risk"
+      ],
+      "required_proof": [
+        "technical-documentation",
+        "transparency"
+      ]
+    }
+  ]
+}

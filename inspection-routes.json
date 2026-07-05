@@ -1,0 +1,45 @@
+{
+  "canonical_url": "https://eu-112.eu",
+  "inspection_routes": [
+    {
+      "name": "Human inspection gate",
+      "url": "/inspection-gate.html"
+    },
+    {
+      "name": "Remote verification explanation",
+      "url": "/remote-verification.html"
+    },
+    {
+      "name": "RRVI machine model",
+      "url": "/rrvi.json"
+    },
+    {
+      "name": "NCC compiler model",
+      "url": "/ncc.json"
+    },
+    {
+      "name": "Inspection intents",
+      "url": "/inspection-intents.json"
+    },
+    {
+      "name": "Required facts",
+      "url": "/required-facts.json"
+    },
+    {
+      "name": "Required proof",
+      "url": "/required-proof.json"
+    },
+    {
+      "name": "Regulatory map",
+      "url": "/regulatory-map.json"
+    },
+    {
+      "name": "Evidence manifest",
+      "url": "/evidence-manifest.json"
+    },
+    {
+      "name": "Semantic dictionary",
+      "url": "/semantic-ere-dictionary.json"
+    }
+  ]
+}

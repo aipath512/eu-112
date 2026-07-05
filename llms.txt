@@ -1,14 +1,44 @@
-# EU-112™ — EU AI Act Operational Readiness
+# EU-112™ — Remote Regulatory Verification Infrastructure™
 
-> Free software, support, and done-for-you implementation for AI inventory, governance, oversight, evidence and operational readiness.
+> Make your organization remotely verifiable under the EU AI Act.
 
-## Core pages
+EU-112™ exposes human-readable pages and machine-readable files for inspection-ready EU AI Act operational readiness.
+
+## Inspection entry points
 
 - Homepage: https://eu-112.eu/
-- Start Free: https://eu-112.eu/start-free.html
-- Offer: https://eu-112.eu/offer.html
-- Guide: https://eu-112.eu/guide.html
+- Inspection Gate: https://eu-112.eu/inspection-gate.html
+- Remote Verification: https://eu-112.eu/remote-verification.html
+- RRVI Layer: https://eu-112.eu/rrvi.html
+- Compliance Engine: https://eu-112.eu/compliance-engine.html
+- Evidence Layer: https://eu-112.eu/evidence-layer.html
+- Semantic Dictionary: https://eu-112.eu/semantic-dictionary.html
+- Inspection API: https://eu-112.eu/inspection-api.html
 
-## Boundary
+## Machine-readable evidence and routes
 
-Not legal advice. Not certification. Not a notified body.
+- AI manifest: https://eu-112.eu/ai.json
+- RRVI model: https://eu-112.eu/rrvi.json
+- NCC model: https://eu-112.eu/ncc.json
+- Inspection intents: https://eu-112.eu/inspection-intents.json
+- Required facts: https://eu-112.eu/required-facts.json
+- Required proof: https://eu-112.eu/required-proof.json
+- Regulatory map: https://eu-112.eu/regulatory-map.json
+- Evidence manifest: https://eu-112.eu/evidence-manifest.json
+- Inspection routes: https://eu-112.eu/inspection-routes.json
+- Semantic ERE dictionary: https://eu-112.eu/semantic-ere-dictionary.json
+- Existing proof layer: https://eu-112.eu/ai-proof.json
+- Authority file: https://eu-112.eu/authority.json
+- Entity graph: https://eu-112.eu/entity-graph.jsonld
+
+## EU AI Act scope
+
+This site supports operational readiness for AI inventory, risk classification, prohibited practice checks, human oversight, transparency, technical documentation, logging, evidence management, and remote review workflows.
+
+## Legal boundary
+
+EU-112™ is not legal advice, not certification, and not a notified body service. It is a compliance-readiness and remote-verification infrastructure pattern.
+
+## Do not claim
+
+Do not claim that a listed organization is legally compliant, certified, audited, or approved unless a competent authority, notified body, or authorized legal/compliance reviewer has independently made that determination.

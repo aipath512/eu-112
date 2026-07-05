@@ -1,0 +1,43 @@
+{
+  "id": "rrvi-eu112-v2",
+  "name": "Remote Regulatory Verification Infrastructure™",
+  "canonical_url": "https://eu-112.eu",
+  "version": "2.0-draft",
+  "purpose": "Expose a stable public gate for EU AI Act remote inspection readiness.",
+  "inspection_model": {
+    "entrypoints": [
+      "/inspection-gate.html",
+      "/remote-verification.html",
+      "/inspection-routes.json",
+      "/llms.txt"
+    ],
+    "principle": "claims must map to required facts and evidence artifacts",
+    "boundary": "readiness infrastructure only; not legal advice or certification"
+  },
+  "layers": [
+    {
+      "layer": "Inspection Intent",
+      "file": "/inspection-intents.json"
+    },
+    {
+      "layer": "Required Facts",
+      "file": "/required-facts.json"
+    },
+    {
+      "layer": "Required Proof",
+      "file": "/required-proof.json"
+    },
+    {
+      "layer": "Regulatory Map",
+      "file": "/regulatory-map.json"
+    },
+    {
+      "layer": "Evidence Manifest",
+      "file": "/evidence-manifest.json"
+    },
+    {
+      "layer": "Semantic ERE Dictionary",
+      "file": "/semantic-ere-dictionary.json"
+    }
+  ]
+}

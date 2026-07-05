@@ -1,0 +1,36 @@
+{
+  "canonical_url": "https://eu-112.eu",
+  "entities": [
+    "Organization",
+    "AI System",
+    "AI Use Case",
+    "Model Dependency",
+    "Provider",
+    "Deployer",
+    "Business Process",
+    "Data Category",
+    "Risk Classification",
+    "Control",
+    "Evidence Artifact",
+    "Document",
+    "Inspector",
+    "Owner",
+    "Reviewer"
+  ],
+  "relations": [
+    "uses",
+    "owns",
+    "provides",
+    "deploys",
+    "dependsOn",
+    "mapsToObligation",
+    "requiresFact",
+    "requiresProof",
+    "evidencedBy",
+    "reviewedBy",
+    "approvedBy",
+    "publishedAt",
+    "hashedBy"
+  ],
+  "purpose": "Shared ERE vocabulary for inspection-readable EU AI Act compliance infrastructure."
+}
