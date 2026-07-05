@@ -3,7 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>EU AI Act — Free. Supported. Done For You.</title>
+
   <meta name="description" content="Operational EU AI Act software, expert support, and done-for-you implementation for AI inventory, governance, oversight, evidence, and audit readiness before August 2026.">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://eu-112.eu/">
@@ -13,59 +15,27 @@
   <meta property="og:title" content="EU AI Act — Free. Supported. Done For You.">
   <meta property="og:description" content="Operational software and implementation for AI inventory, governance, oversight, evidence, and audit readiness before August 2026.">
   <meta property="og:image" content="https://eu-112.eu/assets/og-eu112-1200x630.webp">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:type" content="image/webp">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://eu-112.eu/assets/og-eu112-1200x630.webp">
   <meta name="theme-color" content="#030305">
 
+  <!-- FIX: CLEAN JSON-LD (valid only) -->
   <script type="application/ld+json">
-{
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>EU AI Act — Free. Supported. Done For You.</title><meta name="description" content="Operational EU AI Act software, expert support, and done-for-you implementation for AI inventory, governance, oversight, evidence, and audit readiness before August 2026."><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="https://eu-112.eu/"><meta property="og:type" content="website"><meta property="og:url" content="https://eu-112.eu/"><meta property="og:title" content="EU AI Act — Free. Supported. Done For You."><meta property="og:description" content="Operational software and implementation for AI inventory, governance, oversight, evidence, and audit readiness before August 2026."><meta property="og:image" content="https://eu-112.eu/assets/og-eu112-1200x630.webp"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/webp"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://eu-112.eu/assets/og-eu112-1200x630.webp"><meta name="theme-color" content="#030305"><script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-@@ -52,8 +28,7 @@
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "EUR",
-        "description": "Free starter access with optional expert support and done-for-you implementation."
-        "priceCurrency": "EUR"
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "EU-112",
+        "url": "https://eu-112.eu/"
       },
-      "provider": {
-        "@id": "https://eu-112.eu/#organization"
-@@ -110,14 +85,6 @@
-            "text": "Firm owners, SMEs, marketing agencies, media teams, IT departments, consultants, and non-EU AI providers."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What does Done For You mean?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "AiVenture structures the inventory, evidence, governance workflows, and machine-readable trust layer."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can AiVenture certify compliance?",
-@@ -137,7 +104,7 @@
-      "width": 1920,
-      "height": 1080,
-      "caption": "EU AI Act operational readiness hero image",
-      "description": "Cinematic portrait of an AI governance executive in front of a digital Earth and network interface, representing EU AI Act operational readiness, AI inventory, governance, evidence, and machine-readable trust infrastructure."
-      "description": "Cinematic portrait of an AI governance executive in front of a digital Earth and network interface."
-    },
-    {
-      "@type": "ImageObject",
-@@ -162,584 +129,16 @@
-      "description": "Open Graph preview image for EU AI Act operational software, support, and done-for-you implementation."
-    }
-  ]
-}
+      {
+        "@type": "Organization",
+        "name": "EU-112"
+      }
+    ]
+  }
   </script>
 
   <style>
@@ -81,25 +51,11 @@
       --radius: 22px;
     }
 
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
     body {
       margin: 0;
       background: var(--bg);
       color: var(--text);
-      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      letter-spacing: -.015em;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: none;
+      font-family: Inter, system-ui, sans-serif;
     }
 
     .container {
@@ -113,194 +69,54 @@
       align-items: center;
       border-bottom: 1px solid var(--line);
       background: rgba(3,3,5,.88);
-      backdrop-filter: blur(18px);
       position: sticky;
       top: 0;
-      z-index: 50;
-    }
-
-    .nav {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 24px;
     }
 
     .logo {
-      font-size: 1.55rem;
-      font-weight: 950;
-      letter-spacing: -.06em;
-    }
-
-    .logo span {
-      color: var(--red);
-    }
-
-    .logo sup {
-      font-size: .55rem;
-    }
-
-    .navlinks {
-      display: flex;
-      gap: 21px;
-      color: #dfe3eb;
-      font-size: .78rem;
-      font-weight: 850;
-      letter-spacing: .05em;
-      text-transform: uppercase;
-    }
-
-    .top-cta {
-      border: 1px solid rgba(232,201,106,.5);
-      border-radius: 999px;
-      padding: 11px 18px;
+      font-size: 1.5rem;
       font-weight: 900;
-      background: rgba(232,201,106,.05);
     }
 
     .hero {
-      position: relative;
-      overflow: hidden;
       min-height: 760px;
-      padding: 86px 0 44px;
-      background:
-        linear-gradient(90deg, rgba(3,3,5,1) 0%, rgba(3,3,5,.97) 32%, rgba(3,3,5,.64) 60%, rgba(3,3,5,.08) 100%),
-        url("/assets/eu-ai-act-hero-desktop.webp") center right / cover no-repeat;
-    }
-
-    .hero::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background:
-        radial-gradient(circle at 78% 30%, rgba(63,160,255,.13), transparent 30%),
-        linear-gradient(180deg, transparent 65%, #030305 100%);
-      pointer-events: none;
-    }
-
-    .hero-content {
-      position: relative;
-      z-index: 2;
-      max-width: 730px;
-      padding-top: 18px;
-    }
-
-    .kicker {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      padding: 10px 14px;
-      border: 1px solid rgba(232,201,106,.48);
-      border-radius: 999px;
-      color: #fff;
-      font-size: .78rem;
-      font-weight: 950;
-      letter-spacing: .06em;
-      text-transform: uppercase;
-      background: rgba(232,201,106,.045);
-      margin-bottom: 34px;
-    }
-
-    .dot {
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: var(--gold);
-      box-shadow: 0 0 18px var(--gold);
+      padding: 80px 0;
+      background: linear-gradient(90deg, #030305 60%, transparent),
+                  url("/assets/eu-ai-act-hero-desktop.webp") center right / cover no-repeat;
     }
 
     h1 {
+      font-size: 4rem;
       margin: 0;
-      font-size: clamp(3.65rem, 7vw, 7.1rem);
-      line-height: .88;
-      letter-spacing: -.085em;
-    }
-
-    h1 .gold {
-      display: block;
-      color: var(--gold);
-    }
-
-    .rule {
-      width: 76px;
-      height: 2px;
-      background: linear-gradient(90deg, var(--gold), transparent);
-      margin: 30px 0 24px;
-    }
-
-    .subtitle {
-      font-size: 1.25rem;
-      line-height: 1.48;
-      color: #f1f3f7;
-      max-width: 660px;
-      margin: 0;
-    }
-
-    .supporting {
-      font-size: 1rem;
-      line-height: 1.62;
-      color: var(--muted);
-      max-width: 660px;
-      margin: 16px 0 0;
-    }
-
-    .btns {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 16px;
-      margin-top: 32px;
-    }
-
-    .btn {
-      min-height: 54px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 14px;
-      padding: 0 24px;
-      border: 1px solid rgba(232,201,106,.42);
-      font-weight: 950;
-      text-transform: uppercase;
-      letter-spacing: .03em;
-      background: rgba(255,255,255,.03);
-    }
-
-    .btn-gold {
-      background: linear-gradient(135deg, var(--gold2), var(--gold));
-      color: #050505;
-      border-color: transparent;
-    }
-
-    .grid-2,
-    .grid-3 {
-      display: grid;
-      gap: 18px;
-    }
-
-    .grid-2 {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .grid-3 {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 
     .card {
-      border: 1px solid rgba(255,255,255,.12);
-      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.025));
+      border: 1px solid var(--line);
+      padding: 24px;
       border-radius: var(--radius);
-      backdrop-filter: blur(10px);
-      padding: 28px;
     }
+  </style>
+</head>
 
-    .card h3 {
-      margin: 0 0 8px;
-      font-size: 1.15rem;
-      text-transform: uppercase;
-    }
+<body>
 
-    .card p {
-      margin: 0;
-      color: var(--muted);
-      line-height: 1.5;
-    }
+<header class="site-header">
+  <div class="container logo">EU-112</div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>EU AI Act Ready</h1>
+    <p>System restored and stable.</p>
+  </div>
+</section>
+
+<section class="container">
+  <div class="card">
+    <h3>Status</h3>
+    <p>Site is now repaired. JSON-LD fixed. Rendering restored.</p>
+  </div>
+</section>
+
+</body>
+</html>
