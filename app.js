@@ -1,28 +1,27 @@
 const questions=[
-{q:"Folosiți software în activitatea firmei?",a:["DA","NU"]},
-{q:"Folosiți instrumente precum ChatGPT, Copilot sau alte servicii AI?",a:["DA","NU","NU ȘTIU"]},
-{q:"Doriți documentul complet al evaluării?",a:["DA","NU"]}
+{q:"Cu ce se ocupă firma?",type:"text"},
+{q:"Folosiți software în activitatea firmei?",a:["DA","NU","NU ȘTIU"]},
+{q:"Folosiți instrumente AI precum ChatGPT sau Copilot?",a:["DA","NU","NU ȘTIU"]},
+{q:"Aveți procese automate care recomandă sau clasifică?",a:["DA","NU","NU ȘTIU"]},
+{q:"Vindeți sau importați produse cu software?",a:["DA","NU","NU ȘTIU"]}
 ];
 
-let i=0;
-let answers=[];
-
+let i=0; let answers=[];
 function show(){
-document.getElementById("question").innerText=questions[i].q;
-let box=document.getElementById("answers");
-box.innerHTML="";
-questions[i].a.forEach(x=>{
-let b=document.createElement("button");
-b.innerText=x;
-b.onclick=()=>{answers.push(x);i++;i<questions.length?show():result();};
-box.appendChild(b);
-});
-}
-
-function result(){
-document.getElementById("app").classList.add("hidden");
-let r=document.getElementById("result");
-r.classList.remove("hidden");
-r.innerHTML="<h2>Evaluare finalizată</h2><p>Răspunsuri analizate: "+answers.length+"</p><p>Documentul complet va fi generat după integrarea plății Stripe.</p>";
+let b=document.getElementById("box");
+let q=questions[i];
+b.innerHTML="<div class='card'><h2>"+q.q+"</h2></div>";
+let card=b.firstChild;
+if(q.type==="text"){
+let input=document.createElement("input"); input.style.width="80%"; input.style.padding="10px";
+let btn=document.createElement("button"); btn.innerText="Continuă";
+btn.onclick=()=>{answers.push(input.value);next()};
+card.append(input,btn);
+}else{
+q.a.forEach(x=>{let btn=document.createElement("button");btn.innerText=x;btn.onclick=()=>{answers.push(x);next()};card.appendChild(btn)})
+}}
+function next(){i++;i<questions.length?show():finish()}
+function finish(){
+document.getElementById("box").innerHTML="<div class='card'><h2>Evaluare finalizată</h2><p>Răspunsuri analizate: "+answers.length+"</p><p>Versiune V2 - motor evaluare inițială.</p></div>"
 }
 show();

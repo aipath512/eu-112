@@ -1,2 +1,2 @@
-# EU-112 V1
-Cloudflare Pages starter for AI assessment.
+# EU-112 V2
+Adaptive AI assessment starter.
