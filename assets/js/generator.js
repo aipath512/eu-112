@@ -6,7 +6,7 @@
 (function () {
   "use strict";
 
-  var RRVI_BASE = "https://rrvi-generator-worker-test.aipath512.workers.dev";
+  var RRVI_BASE = "https://eu-112-rrvi-generator-v1.aipath512.workers.dev";
   var RRVI_API = RRVI_BASE + "/generate";
   var RRVI_SINGLE_API = RRVI_BASE + "/generate-one";
   var LEAD_API = "https://leads-capture-worker.aipath512.workers.dev/capture";
