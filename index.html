@@ -1,20 +1,47 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ro">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>EU-112 AI Readiness</title>
-<meta name="description" content="Evaluare rapidă AI Act readiness pentru organizații.">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EU-112™ — Primul pas demonstrabil pentru EU AI Act</title>
+<meta name="description" content="În 15 minute generezi dovada inițială că firma a început pregătirea pentru EU AI Act, cu amprentă SHA-256 și verificare la distanță.">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<header class="top"><div class="brand">EU-112™</div><div class="mini">AI ACT READINESS AGENT</div></header>
 <main>
-<nav>Home → EU AI Act → Readiness Check</nav>
-<h1>EU-112™ AI Readiness Check</h1>
-<p>Verifică rapid nivelul de pregătire al organizației tale.</p>
-<section id="app"></section>
+<section class="hero">
+ <div class="hero-copy">
+  <div class="eyebrow">EU AI ACT • INITIAL READINESS EVIDENCE</div>
+  <h1>15 minute. Primul pas al firmei tale demonstrabil pentru EU AI Act.</h1>
+  <p class="sub">Regulamentul se aplică din 2 august 2026. Generezi acum dovada că firma ta a început — verificabilă la distanță de ANCOM sau de auditor.</p>
+  <div class="actions"><button class="primary" onclick="startAssessment()">ÎNCEPE EVALUAREA — 10 EUR</button><button onclick="showDemo()">VEZI DEMO</button></div>
+  <p class="fine">Evaluare inițială de readiness. Nu reprezintă certificare, aviz juridic sau garanție de conformitate ori de evitare a sancțiunilor.</p>
+ </div>
+ <img class="badge" src="assets/ai-generated-badge.jpg" alt="EU AI Act — AI Generated">
+</section>
+
+<section class="stats">
+ <div><b>70</b><span>documente operaționale</span></div><div><b>10</b><span>module de guvernanță</span></div>
+ <div><b>15</b><span>minute până la dovadă</span></div><div><b>SHA-256</b><span>amprentă criptografică</span></div>
+</section>
+
+<section id="assessment" class="panel hidden">
+ <div id="step"></div>
+</section>
+
+<section id="result" class="panel hidden"></section>
+
+<section class="how">
+ <h2>Ce face Agentul EU-112</h2>
+ <div class="grid">
+  <article><b>1. Intervievează</b><p>Întrebări structurate pe cele 10 module ale dosarului de guvernanță.</p></article>
+  <article><b>2. Evaluează</b><p>Identifică răspunsurile lipsă, parțiale și zonele care necesită acțiune.</p></article>
+  <article><b>3. Generează</b><p>Produce evaluarea inițială și mapa de dovezi pentru cele 70 de artefacte.</p></article>
+  <article><b>4. Amprentează</b><p>Calculează SHA-256 asupra evaluării și fixează data generării.</p></article>
+  <article><b>5. Verifică</b><p>Creează un ID de verificare pentru vizualizarea la distanță.</p></article>
+ </div>
+</section>
 </main>
-<script src="config.js"></script>
+<footer>EU-112™ • Initial AI Act Readiness Evidence • Inspector Ready / Auditor Ready</footer>
 <script src="app.js"></script>
-</body>
-</html>
+</body></html>

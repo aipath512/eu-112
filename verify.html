@@ -1,0 +1,7 @@
+<!doctype html><html lang="ro"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>EU-112 Verification</title><link rel="stylesheet" href="styles.css"></head>
+<body><main><section class="panel"><div class="eyebrow">RRVI • REMOTE READINESS VERIFICATION</div><h1 style="font-size:52px">Verificare la distanță</h1><div id="v"></div></section></main>
+<script>
+(async()=>{const id=new URLSearchParams(location.search).get('id'),el=document.getElementById('v');if(!id){el.innerHTML='<p>Lipsește Verification ID.</p>';return}
+const r=localStorage.getItem(id);if(!r){el.innerHTML='<p>Recordul nu există pe acest dispozitiv. Pentru verificare publică reală, recordul trebuie publicat prin Worker + D1/R2.</p>';return}
+const x=JSON.parse(r);el.innerHTML=`<div class="card"><b>Organisation</b><p>${x.organisation.company}</p><b>Verification ID</b><p>${x.id}</p><b>Assessment timestamp</b><p>${x.timestamp}</p><b>Readiness</b><p>${x.overall}%</p><b>SHA-256</b><p class="hash">${x.hash}</p><p>Record disponibil și integru în această sesiune locală.</p></div>`})();
+</script></body></html>

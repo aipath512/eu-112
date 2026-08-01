@@ -1,0 +1,974 @@
+{
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "M01-Q01",
+      "module": "01",
+      "module_name": "AI System Inventory",
+      "text": "Firma utilizează sau permite utilizarea unor sisteme ori servicii bazate pe AI?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-01",
+        "REG-01",
+        "EVID-01",
+        "DEC-01"
+      ]
+    },
+    {
+      "id": "M01-Q02",
+      "module": "01",
+      "module_name": "AI System Inventory",
+      "text": "Există un inventar actualizat al sistemelor AI utilizate?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-01",
+        "REG-01",
+        "EVID-01",
+        "DEC-01"
+      ]
+    },
+    {
+      "id": "M01-Q03",
+      "module": "01",
+      "module_name": "AI System Inventory",
+      "text": "Pentru fiecare sistem AI sunt cunoscute furnizorul, scopul și departamentul utilizator?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-01",
+        "REG-01",
+        "EVID-01",
+        "DEC-01"
+      ]
+    },
+    {
+      "id": "M01-Q04",
+      "module": "01",
+      "module_name": "AI System Inventory",
+      "text": "Este desemnat un responsabil pentru fiecare utilizare AI?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-01",
+        "REG-01",
+        "EVID-01",
+        "DEC-01"
+      ]
+    },
+    {
+      "id": "M01-Q05",
+      "module": "01",
+      "module_name": "AI System Inventory",
+      "text": "Sunt identificate tipurile de date procesate de fiecare sistem AI?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-01",
+        "REG-01",
+        "EVID-01",
+        "DEC-01"
+      ]
+    },
+    {
+      "id": "M01-Q06",
+      "module": "01",
+      "module_name": "AI System Inventory",
+      "text": "Este documentată data introducerii în utilizare a fiecărui sistem AI?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-01",
+        "REG-01",
+        "EVID-01",
+        "DEC-01"
+      ]
+    },
+    {
+      "id": "M02-Q01",
+      "module": "02",
+      "module_name": "Risk Classification",
+      "text": "Fiecare sistem AI a fost evaluat pentru încadrarea sa de risc?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-02",
+        "REG-02",
+        "EVID-02",
+        "DEC-02"
+      ]
+    },
+    {
+      "id": "M02-Q02",
+      "module": "02",
+      "module_name": "Risk Classification",
+      "text": "Este documentată justificarea clasificării de risc?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-02",
+        "REG-02",
+        "EVID-02",
+        "DEC-02"
+      ]
+    },
+    {
+      "id": "M02-Q03",
+      "module": "02",
+      "module_name": "Risk Classification",
+      "text": "Este evaluat impactul posibil asupra persoanelor, clienților sau angajaților?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-02",
+        "REG-02",
+        "EVID-02",
+        "DEC-02"
+      ]
+    },
+    {
+      "id": "M02-Q04",
+      "module": "02",
+      "module_name": "Risk Classification",
+      "text": "Este verificată periodic clasificarea atunci când utilizarea sistemului se schimbă?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-02",
+        "REG-02",
+        "EVID-02",
+        "DEC-02"
+      ]
+    },
+    {
+      "id": "M02-Q05",
+      "module": "02",
+      "module_name": "Risk Classification",
+      "text": "Există o procedură de escaladare atunci când clasificarea nu este clară?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-02",
+        "REG-02",
+        "EVID-02",
+        "DEC-02"
+      ]
+    },
+    {
+      "id": "M03-Q01",
+      "module": "03",
+      "module_name": "AI Literacy",
+      "text": "Persoanele care utilizează AI au primit instruire adecvată rolului lor?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-03",
+        "REG-03",
+        "EVID-03",
+        "DEC-03"
+      ]
+    },
+    {
+      "id": "M03-Q02",
+      "module": "03",
+      "module_name": "AI Literacy",
+      "text": "Există dovezi ale instruirii și ale participării?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-03",
+        "REG-03",
+        "EVID-03",
+        "DEC-03"
+      ]
+    },
+    {
+      "id": "M03-Q03",
+      "module": "03",
+      "module_name": "AI Literacy",
+      "text": "Sunt comunicate limitările și riscurile instrumentelor AI utilizate?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-03",
+        "REG-03",
+        "EVID-03",
+        "DEC-03"
+      ]
+    },
+    {
+      "id": "M03-Q04",
+      "module": "03",
+      "module_name": "AI Literacy",
+      "text": "Există reguli interne privind utilizarea responsabilă a AI?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-03",
+        "REG-03",
+        "EVID-03",
+        "DEC-03"
+      ]
+    },
+    {
+      "id": "M03-Q05",
+      "module": "03",
+      "module_name": "AI Literacy",
+      "text": "Nivelul de instruire este revizuit periodic?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-03",
+        "REG-03",
+        "EVID-03",
+        "DEC-03"
+      ]
+    },
+    {
+      "id": "M04-Q01",
+      "module": "04",
+      "module_name": "Prohibited Practices",
+      "text": "Firma verifică dacă utilizările AI pot intra în categoria practicilor interzise?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-04",
+        "REG-04",
+        "EVID-04",
+        "DEC-04"
+      ]
+    },
+    {
+      "id": "M04-Q02",
+      "module": "04",
+      "module_name": "Prohibited Practices",
+      "text": "Există o procedură înainte de introducerea unei noi utilizări AI?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-04",
+        "REG-04",
+        "EVID-04",
+        "DEC-04"
+      ]
+    },
+    {
+      "id": "M04-Q03",
+      "module": "04",
+      "module_name": "Prohibited Practices",
+      "text": "Sunt evaluate utilizările care pot manipula comportamentul persoanelor?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-04",
+        "REG-04",
+        "EVID-04",
+        "DEC-04"
+      ]
+    },
+    {
+      "id": "M04-Q04",
+      "module": "04",
+      "module_name": "Prohibited Practices",
+      "text": "Sunt evaluate utilizările biometrice sau de categorizare a persoanelor, dacă există?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-04",
+        "REG-04",
+        "EVID-04",
+        "DEC-04"
+      ]
+    },
+    {
+      "id": "M04-Q05",
+      "module": "04",
+      "module_name": "Prohibited Practices",
+      "text": "Există un mecanism de oprire și escaladare pentru o utilizare potențial interzisă?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-04",
+        "REG-04",
+        "EVID-04",
+        "DEC-04"
+      ]
+    },
+    {
+      "id": "M05-Q01",
+      "module": "05",
+      "module_name": "High-Risk Assessment",
+      "text": "Firma verifică dacă vreun sistem AI poate intra într-o categorie high-risk?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-05",
+        "REG-05",
+        "EVID-05",
+        "DEC-05"
+      ]
+    },
+    {
+      "id": "M05-Q02",
+      "module": "05",
+      "module_name": "High-Risk Assessment",
+      "text": "Pentru sistemele potențial high-risk există o evaluare documentată?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-05",
+        "REG-05",
+        "EVID-05",
+        "DEC-05"
+      ]
+    },
+    {
+      "id": "M05-Q03",
+      "module": "05",
+      "module_name": "High-Risk Assessment",
+      "text": "Sunt identificate rolurile firmei în lanțul AI: provider, deployer, importer sau distributor?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-05",
+        "REG-05",
+        "EVID-05",
+        "DEC-05"
+      ]
+    },
+    {
+      "id": "M05-Q04",
+      "module": "05",
+      "module_name": "High-Risk Assessment",
+      "text": "Există măsuri definite pentru sistemele care necesită control suplimentar?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-05",
+        "REG-05",
+        "EVID-05",
+        "DEC-05"
+      ]
+    },
+    {
+      "id": "M05-Q05",
+      "module": "05",
+      "module_name": "High-Risk Assessment",
+      "text": "Evaluarea high-risk este revizuită când sistemul sau scopul său se modifică?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-05",
+        "REG-05",
+        "EVID-05",
+        "DEC-05"
+      ]
+    },
+    {
+      "id": "M06-Q01",
+      "module": "06",
+      "module_name": "Technical Documentation",
+      "text": "Există documentația tehnică disponibilă pentru sistemele AI relevante?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-06",
+        "REG-06",
+        "EVID-06",
+        "DEC-06"
+      ]
+    },
+    {
+      "id": "M06-Q02",
+      "module": "06",
+      "module_name": "Technical Documentation",
+      "text": "Sunt păstrate informații despre versiunea și configurația sistemului?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-06",
+        "REG-06",
+        "EVID-06",
+        "DEC-06"
+      ]
+    },
+    {
+      "id": "M06-Q03",
+      "module": "06",
+      "module_name": "Technical Documentation",
+      "text": "Sunt documentate scopul, limitele și condițiile de utilizare?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-06",
+        "REG-06",
+        "EVID-06",
+        "DEC-06"
+      ]
+    },
+    {
+      "id": "M06-Q04",
+      "module": "06",
+      "module_name": "Technical Documentation",
+      "text": "Sunt păstrate instrucțiunile și documentele furnizorului?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-06",
+        "REG-06",
+        "EVID-06",
+        "DEC-06"
+      ]
+    },
+    {
+      "id": "M06-Q05",
+      "module": "06",
+      "module_name": "Technical Documentation",
+      "text": "Există o evidență a modificărilor semnificative?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-06",
+        "REG-06",
+        "EVID-06",
+        "DEC-06"
+      ]
+    },
+    {
+      "id": "M07-Q01",
+      "module": "07",
+      "module_name": "Human Oversight",
+      "text": "Este desemnată o persoană care poate supraveghea rezultatele AI?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-07",
+        "REG-07",
+        "EVID-07",
+        "DEC-07"
+      ]
+    },
+    {
+      "id": "M07-Q02",
+      "module": "07",
+      "module_name": "Human Oversight",
+      "text": "Există situații definite în care rezultatul AI trebuie verificat de un om?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-07",
+        "REG-07",
+        "EVID-07",
+        "DEC-07"
+      ]
+    },
+    {
+      "id": "M07-Q03",
+      "module": "07",
+      "module_name": "Human Oversight",
+      "text": "Persoana responsabilă poate opri sau suspenda utilizarea sistemului?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-07",
+        "REG-07",
+        "EVID-07",
+        "DEC-07"
+      ]
+    },
+    {
+      "id": "M07-Q04",
+      "module": "07",
+      "module_name": "Human Oversight",
+      "text": "Există o procedură pentru contestarea sau corectarea rezultatelor AI?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-07",
+        "REG-07",
+        "EVID-07",
+        "DEC-07"
+      ]
+    },
+    {
+      "id": "M07-Q05",
+      "module": "07",
+      "module_name": "Human Oversight",
+      "text": "Deciziile importante păstrează o urmă a intervenției umane?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-07",
+        "REG-07",
+        "EVID-07",
+        "DEC-07"
+      ]
+    },
+    {
+      "id": "M08-Q01",
+      "module": "08",
+      "module_name": "Data Governance",
+      "text": "Sunt cunoscute sursele datelor introduse în sistemele AI?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-08",
+        "REG-08",
+        "EVID-08",
+        "DEC-08"
+      ]
+    },
+    {
+      "id": "M08-Q02",
+      "module": "08",
+      "module_name": "Data Governance",
+      "text": "Există reguli privind datele personale, confidențiale sau sensibile?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-08",
+        "REG-08",
+        "EVID-08",
+        "DEC-08"
+      ]
+    },
+    {
+      "id": "M08-Q03",
+      "module": "08",
+      "module_name": "Data Governance",
+      "text": "Este verificată calitatea datelor relevante pentru utilizarea AI?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-08",
+        "REG-08",
+        "EVID-08",
+        "DEC-08"
+      ]
+    },
+    {
+      "id": "M08-Q04",
+      "module": "08",
+      "module_name": "Data Governance",
+      "text": "Accesul la date și rezultate este controlat?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-08",
+        "REG-08",
+        "EVID-08",
+        "DEC-08"
+      ]
+    },
+    {
+      "id": "M08-Q05",
+      "module": "08",
+      "module_name": "Data Governance",
+      "text": "Există reguli privind păstrarea și ștergerea datelor?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-08",
+        "REG-08",
+        "EVID-08",
+        "DEC-08"
+      ]
+    },
+    {
+      "id": "M09-Q01",
+      "module": "09",
+      "module_name": "Logging & Monitoring",
+      "text": "Sunt păstrate loguri sau alte urme ale utilizării sistemelor AI, unde este relevant?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-09",
+        "REG-09",
+        "EVID-09",
+        "DEC-09"
+      ]
+    },
+    {
+      "id": "M09-Q02",
+      "module": "09",
+      "module_name": "Logging & Monitoring",
+      "text": "Există o persoană responsabilă pentru monitorizare?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-09",
+        "REG-09",
+        "EVID-09",
+        "DEC-09"
+      ]
+    },
+    {
+      "id": "M09-Q03",
+      "module": "09",
+      "module_name": "Logging & Monitoring",
+      "text": "Sunt definite indicatori sau evenimente care necesită verificare?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-09",
+        "REG-09",
+        "EVID-09",
+        "DEC-09"
+      ]
+    },
+    {
+      "id": "M09-Q04",
+      "module": "09",
+      "module_name": "Logging & Monitoring",
+      "text": "Problemele și abaterile sunt înregistrate?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-09",
+        "REG-09",
+        "EVID-09",
+        "DEC-09"
+      ]
+    },
+    {
+      "id": "M09-Q05",
+      "module": "09",
+      "module_name": "Logging & Monitoring",
+      "text": "Există revizuiri periodice ale utilizării și performanței sistemelor AI?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-09",
+        "REG-09",
+        "EVID-09",
+        "DEC-09"
+      ]
+    },
+    {
+      "id": "M10-Q01",
+      "module": "10",
+      "module_name": "Incident Reporting",
+      "text": "Există o procedură internă pentru incidente legate de AI?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-10",
+        "REG-10",
+        "EVID-10",
+        "DEC-10"
+      ]
+    },
+    {
+      "id": "M10-Q02",
+      "module": "10",
+      "module_name": "Incident Reporting",
+      "text": "Angajații știu cui trebuie să raporteze un incident AI?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-10",
+        "REG-10",
+        "EVID-10",
+        "DEC-10"
+      ]
+    },
+    {
+      "id": "M10-Q03",
+      "module": "10",
+      "module_name": "Incident Reporting",
+      "text": "Există un registru al incidentelor și măsurilor luate?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-10",
+        "REG-10",
+        "EVID-10",
+        "DEC-10"
+      ]
+    },
+    {
+      "id": "M10-Q04",
+      "module": "10",
+      "module_name": "Incident Reporting",
+      "text": "Este definită o procedură de escaladare pentru incidente grave?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-10",
+        "REG-10",
+        "EVID-10",
+        "DEC-10"
+      ]
+    },
+    {
+      "id": "M10-Q05",
+      "module": "10",
+      "module_name": "Incident Reporting",
+      "text": "Sunt păstrate dovezile și cronologia incidentului?",
+      "type": "choice",
+      "options": [
+        "Da",
+        "Parțial",
+        "Nu",
+        "Nu știu"
+      ],
+      "feeds": [
+        "CHK-10",
+        "REG-10",
+        "EVID-10",
+        "DEC-10"
+      ]
+    }
+  ]
+}
