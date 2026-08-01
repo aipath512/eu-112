@@ -1,7 +1,124 @@
-<!doctype html><html lang="ro"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>EU-112 Verification</title><link rel="stylesheet" href="styles.css"></head>
-<body><main><section class="panel"><div class="eyebrow">RRVI • REMOTE READINESS VERIFICATION</div><h1 style="font-size:52px">Verificare la distanță</h1><div id="v"></div></section></main>
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verificare acces — EU AI Act Ready™</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="/assets/css/main.css?v=3">
+<link rel="stylesheet" href="/assets/css/additions.css?v=24">
+<style>
+  .verify-wrap {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0a0a0a;
+    padding: 24px;
+  }
+  .verify-card {
+    max-width: 420px;
+    text-align: center;
+    color: #eee;
+    font-family: var(--sans, sans-serif);
+  }
+  .verify-card h1 {
+    font-family: var(--serif, serif);
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+  .verify-card p {
+    color: var(--text-dim, #b8b3a4);
+    font-size: 14.5px;
+    line-height: 1.6;
+  }
+  .verify-status {
+    margin-top: 18px;
+  }
+  #confirmBtn {
+    margin-top: 6px;
+  }
+</style>
+</head>
+<body>
+  <div class="verify-wrap">
+    <div class="verify-card">
+      <h1>EU AI ACT <em style="color:var(--gold,#f0c14b);font-style:italic;">READY</em>™</h1>
+      <div id="verifyStatus">
+        <p>Apasă butonul de mai jos ca să finalizezi autentificarea.</p>
+      </div>
+      <div class="verify-status">
+        <button type="button" class="btn btn-primary" id="confirmBtn">Confirmă accesul →</button>
+        <a href="/" class="btn btn-secondary" style="display:none;margin-top:12px;" id="verifyBackBtn">Înapoi la eu-ai-act.ro →</a>
+      </div>
+    </div>
+  </div>
+
 <script>
-(async()=>{const id=new URLSearchParams(location.search).get('id'),el=document.getElementById('v');if(!id){el.innerHTML='<p>Lipsește Verification ID.</p>';return}
-const r=localStorage.getItem(id);if(!r){el.innerHTML='<p>Recordul nu există pe acest dispozitiv. Pentru verificare publică reală, recordul trebuie publicat prin Worker + D1/R2.</p>';return}
-const x=JSON.parse(r);el.innerHTML=`<div class="card"><b>Organisation</b><p>${x.organisation.company}</p><b>Verification ID</b><p>${x.id}</p><b>Assessment timestamp</b><p>${x.timestamp}</p><b>Readiness</b><p>${x.overall}%</p><b>SHA-256</b><p class="hash">${x.hash}</p><p>Record disponibil și integru în această sesiune locală.</p></div>`})();
-</script></body></html>
+(function () {
+  "use strict";
+
+  // Same origin as auth.js on the main site — keep in sync.
+  var AUTH_API = "https://magic-link-worker.aipath512.workers.dev";
+
+  var statusEl = document.getElementById("verifyStatus");
+  var backBtn = document.getElementById("verifyBackBtn");
+  var confirmBtn = document.getElementById("confirmBtn");
+  var params = new URLSearchParams(window.location.search);
+  var token = params.get("token");
+
+  function showBack() {
+    backBtn.style.display = "inline-block";
+  }
+
+  if (!token) {
+    statusEl.innerHTML = "<p>Link invalid — lipsește token-ul.</p>";
+    confirmBtn.style.display = "none";
+    showBack();
+    return;
+  }
+
+  // IMPORTANT: the actual /verify call only fires on a real click —
+  // not automatically on page load. Email security scanners (Gmail,
+  // Outlook Safe Links, corporate gateways) often prefetch every link
+  // in an email to scan it, but they don't execute JavaScript or click
+  // buttons. This keeps the one-time token from being silently burned
+  // by such a scanner before the person actually clicks it themselves.
+  confirmBtn.addEventListener("click", function () {
+    confirmBtn.disabled = true;
+    confirmBtn.textContent = "Se verifică...";
+    statusEl.innerHTML = '<p><span class="spinner" aria-hidden="true"></span> Se verifică linkul de acces...</p>';
+
+    fetch(AUTH_API + "/verify?token=" + encodeURIComponent(token))
+      .then(function (res) {
+        return res.json();
+      })
+      .then(function (data) {
+        if (data.ok && data.sessionToken) {
+          localStorage.setItem("euaiact_session", data.sessionToken);
+          localStorage.setItem("euaiact_email", data.email);
+          confirmBtn.style.display = "none";
+          statusEl.innerHTML =
+            "<p>Ești logat ca <strong>" +
+            data.email.replace(/</g, "&lt;") +
+            "</strong>.</p>";
+          setTimeout(function () {
+            window.location.href = "/#free-pack";
+          }, 1200);
+        } else {
+          confirmBtn.style.display = "none";
+          statusEl.innerHTML =
+            "<p>" + (data.error || "Linkul nu a putut fi verificat.") + "</p>";
+          showBack();
+        }
+      })
+      .catch(function () {
+        confirmBtn.disabled = false;
+        confirmBtn.textContent = "Confirmă accesul →";
+        statusEl.innerHTML = "<p>Eroare de conexiune. Încearcă din nou.</p>";
+      });
+  });
+})();
+</script>
+</body>
+</html>

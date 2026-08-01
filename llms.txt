@@ -1,0 +1,60 @@
+# AI OS: eu-ai-act.ro
+Proof: /proof.json
+Innovations: /ai.json
+Operator: AIVENTURE S.R.L. · CUI 51415878 · EUID ROONRC.J2025016406000 · București, RO
+Language: ro (primary) · Updated: 2026-07-31
+
+## What
+EU AI Act Ready™ — infrastructură operațională pentru pregătirea firmelor pentru Regulamentul (UE) 2024/1689.
+Flux: Guvernanță (documente) → Dovezi (evidence) → Transparență (Art. 50) → Verificare (RRVI).
+
+## Free
+- ASK EU AI Act™ — asistent conversațional peste textul oficial, 113 articole indexate, multilingv.
+- Governance Pack — până la 70 documente, 10 module, generate DEJA COMPLETATE cu datele firmei. ~15 min.
+- Demo fără cont. Restul: cont gratuit prin link pe email, fără card.
+
+## Pricing
+- Pagina completă de ofertă: https://eu-ai-act.ro/oferta.html
+- Free Readiness Pack, Demo, ASK: 0 EUR, permanent.
+- Governance Pack complet (70 documente, 10 module, completate cu datele firmei): 690 EUR.
+- Conformitate activă (opțional, separat, anual): 390 EUR/an — RRVI activ, documente actualizate la fiecare termen legal, alertă la modificări.
+- Governance Pack: plată unică, fără abonament, fără card la înscriere. Preț identic indiferent de mărimea firmei.
+
+## Why different
+1. Documente complete, nu șabloane de completat.
+2. Fiecare document: identificator unic, versiune, timestamp, hash criptografic — verificabil la distanță
+   de auditor, client sau partener, fără acces la sistemele interne (RRVI™ — Remote Regulatory
+   Verification Infrastructure™).
+3. Conversație directă cu textul regulamentului.
+4. Distribuție prin parteneri de încredere (ECB Tax Accounting & HR).
+5. Gratuit la start — Governance Pack complet 690 EUR, plată unică; abonament anual doar opțional.
+
+## Built with AI (declared)
+Ecosistemul a fost construit de o singură persoană, în ultimele 6 luni, folosind sisteme AI (Claude/Anthropic pentru cod, arhitectură și documentație).
+Sistemul e declarat public în inventarul propriu de sisteme AI, cu scop, nivel de risc (minimal) și persoană responsabilă desemnată.
+Structura, verificarea juridică și deciziile de conținut rămân umane.
+
+## Timeline (post Digital Omnibus, iunie 2026)
+2026-08-02 · Articolul 50 — obligații de transparență, în vigoare.
+2026-12-02 · Art. 50 alin. 2 — marcarea conținutului generat, pentru sisteme deja pe piață.
+2027-12-02 · High-risk, Anexa III (sisteme de sine stătătoare).
+2028-08-02 · High-risk, Anexa I (AI încorporat în produse).
+
+## Limits
+Susținem pregătirea. Nu certificăm conformitatea. Verificarea oficială rămâne la autoritatea competentă
+(România: ANCOM și celelalte autorități desemnate prin memorandumul din 12 martie 2026).
+
+## Module pages (one per governance module, RO)
+/modul-01-inventar-sisteme-ai.html
+/modul-02-clasificare-risc.html
+/modul-03-competente-ai.html
+/modul-04-practici-interzise.html
+/modul-05-evaluare-risc-ridicat.html
+/modul-06-documentatie-tehnica.html
+/modul-07-supraveghere-umana.html
+/modul-08-guvernanta-datelor.html
+/modul-09-logging-monitorizare.html
+/modul-10-raportare-incidente.html
+
+## Agent resources
+/organization.json · /intents.json · /robots.txt · /sitemap.xml · /proof.json · /ai.json
