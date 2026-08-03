@@ -1,56 +1,60 @@
 <!DOCTYPE html>
-<html lang="ro">
+<html lang="fr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Verificare acces — EU AI Act Ready™</title>
+<title>Vérification d'accès — EU-112</title>
 <meta name="robots" content="noindex, nofollow">
-<link rel="stylesheet" href="/assets/css/main.css?v=3">
-<link rel="stylesheet" href="/assets/css/additions.css?v=24">
+<link rel="canonical" href="https://eu-112.eu/verify.html">
 <style>
-  .verify-wrap {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #0a0a0a;
-    padding: 24px;
+  :root{
+    --bg:#0a0a0a; --gold:#f0c14b; --text:#eeeeee; --dim:#b8b3a4;
+    --err:#ff6b6b; --ok:#6bcf8a;
+    --serif:"Playfair Display",Georgia,serif;
+    --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
   }
-  .verify-card {
-    max-width: 420px;
-    text-align: center;
-    color: #eee;
-    font-family: var(--sans, sans-serif);
+  *{box-sizing:border-box}
+  body{
+    margin:0; min-height:100vh; background:var(--bg); color:var(--text);
+    font-family:var(--sans); display:flex; align-items:center; justify-content:center; padding:24px;
   }
-  .verify-card h1 {
-    font-family: var(--serif, serif);
-    font-size: 22px;
-    margin-bottom: 12px;
+  .card{max-width:440px; width:100%; text-align:center}
+  h1{font-family:var(--serif); font-size:24px; font-weight:600; margin:0 0 6px}
+  h1 em{color:var(--gold); font-style:italic}
+  .sub{color:var(--dim); font-size:12px; letter-spacing:.14em; text-transform:uppercase; margin-bottom:34px}
+  p{color:var(--dim); font-size:14.5px; line-height:1.65; margin:0 0 18px}
+  .btn{
+    display:inline-block; background:var(--gold); color:#0a0a0a; border:0;
+    padding:13px 26px; border-radius:6px; font-size:15px; font-weight:600;
+    font-family:var(--sans); cursor:pointer; text-decoration:none;
   }
-  .verify-card p {
-    color: var(--text-dim, #b8b3a4);
-    font-size: 14.5px;
-    line-height: 1.6;
+  .btn:disabled{opacity:.55; cursor:default}
+  .btn-sec{
+    display:inline-block; margin-top:14px; background:transparent; color:var(--dim);
+    border:1px solid #333; padding:11px 22px; border-radius:6px; font-size:14px; text-decoration:none;
   }
-  .verify-status {
-    margin-top: 18px;
+  .err{color:var(--err)}
+  .ok{color:var(--ok)}
+  .mail{color:var(--text); font-weight:600}
+  .spin{
+    display:inline-block; width:13px; height:13px; margin-right:8px; vertical-align:-2px;
+    border:2px solid #444; border-top-color:var(--gold); border-radius:50%;
+    animation:sp .8s linear infinite;
   }
-  #confirmBtn {
-    margin-top: 6px;
-  }
+  @keyframes sp{to{transform:rotate(360deg)}}
 </style>
 </head>
 <body>
-  <div class="verify-wrap">
-    <div class="verify-card">
-      <h1>EU AI ACT <em style="color:var(--gold,#f0c14b);font-style:italic;">READY</em>™</h1>
-      <div id="verifyStatus">
-        <p>Apasă butonul de mai jos ca să finalizezi autentificarea.</p>
-      </div>
-      <div class="verify-status">
-        <button type="button" class="btn btn-primary" id="confirmBtn">Confirmă accesul →</button>
-        <a href="/" class="btn btn-secondary" style="display:none;margin-top:12px;" id="verifyBackBtn">Înapoi la eu-ai-act.ro →</a>
-      </div>
+  <div class="card">
+    <h1>EU-<em>112</em></h1>
+    <div class="sub">Espace Partenaire</div>
+
+    <div id="status">
+      <p>Cliquez sur le bouton ci-dessous pour finaliser votre connexion.</p>
+    </div>
+
+    <div id="actions">
+      <button type="button" class="btn" id="confirm">Confirmer mon accès →</button>
     </div>
   </div>
 
@@ -58,64 +62,70 @@
 (function () {
   "use strict";
 
-  // Same origin as auth.js on the main site — keep in sync.
-  var AUTH_API = "https://magic-link-worker.aipath512.workers.dev";
+  var API = "https://eu-112-partner-api.aipath512.workers.dev";
 
-  var statusEl = document.getElementById("verifyStatus");
-  var backBtn = document.getElementById("verifyBackBtn");
-  var confirmBtn = document.getElementById("confirmBtn");
-  var params = new URLSearchParams(window.location.search);
-  var token = params.get("token");
+  // Clés distinctes de celles du site roumain — un même navigateur peut
+  // être connecté aux deux sans que les sessions se mélangent.
+  var SESSION_KEY = "eu112_session";
+  var EMAIL_KEY   = "eu112_email";
 
-  function showBack() {
-    backBtn.style.display = "inline-block";
+  var statusEl  = document.getElementById("status");
+  var actionsEl = document.getElementById("actions");
+  var confirmBtn= document.getElementById("confirm");
+  var token = new URLSearchParams(window.location.search).get("token");
+
+  function backLink() {
+    return '<a href="/" class="btn-sec">Retour à l\'accueil</a>';
   }
 
   if (!token) {
-    statusEl.innerHTML = "<p>Link invalid — lipsește token-ul.</p>";
-    confirmBtn.style.display = "none";
-    showBack();
+    statusEl.innerHTML = '<p class="err">Lien invalide — le jeton est absent.</p>';
+    actionsEl.innerHTML = backLink();
     return;
   }
 
-  // IMPORTANT: the actual /verify call only fires on a real click —
-  // not automatically on page load. Email security scanners (Gmail,
-  // Outlook Safe Links, corporate gateways) often prefetch every link
-  // in an email to scan it, but they don't execute JavaScript or click
-  // buttons. This keeps the one-time token from being silently burned
-  // by such a scanner before the person actually clicks it themselves.
+  // Le vrai appel /auth/verify ne part QUE sur un clic humain.
+  // Les scanners de sécurité des messageries (Gmail, Outlook Safe Links,
+  // passerelles d'entreprise) préchargent les liens d'un e-mail pour les
+  // analyser, mais n'exécutent pas de JavaScript et ne cliquent pas.
+  // Sans ce garde-fou, le jeton à usage unique serait consommé avant même
+  // que la personne ouvre son message.
   confirmBtn.addEventListener("click", function () {
     confirmBtn.disabled = true;
-    confirmBtn.textContent = "Se verifică...";
-    statusEl.innerHTML = '<p><span class="spinner" aria-hidden="true"></span> Se verifică linkul de acces...</p>';
+    statusEl.innerHTML = '<p><span class="spin"></span>Vérification du lien…</p>';
 
-    fetch(AUTH_API + "/verify?token=" + encodeURIComponent(token))
-      .then(function (res) {
-        return res.json();
-      })
+    fetch(API + "/auth/verify?token=" + encodeURIComponent(token))
+      .then(function (r) { return r.json(); })
       .then(function (data) {
-        if (data.ok && data.sessionToken) {
-          localStorage.setItem("euaiact_session", data.sessionToken);
-          localStorage.setItem("euaiact_email", data.email);
-          confirmBtn.style.display = "none";
+        if (!data.ok || !data.sessionToken) {
+          statusEl.innerHTML = '<p class="err">' + (data.error || "Le lien n'a pas pu être vérifié.") + "</p>";
+          actionsEl.innerHTML = backLink();
+          return;
+        }
+
+        localStorage.setItem(SESSION_KEY, data.sessionToken);
+        localStorage.setItem(EMAIL_KEY, data.email);
+
+        var mail = String(data.email).replace(/</g, "&lt;");
+
+        if (data.onboarded) {
           statusEl.innerHTML =
-            "<p>Ești logat ca <strong>" +
-            data.email.replace(/</g, "&lt;") +
-            "</strong>.</p>";
-          setTimeout(function () {
-            window.location.href = "/#free-pack";
-          }, 1200);
+            '<p class="ok">Connecté en tant que <span class="mail">' + mail + "</span>.</p>";
+          actionsEl.innerHTML =
+            '<a href="/espace.html" class="btn">Accéder à mon espace →</a>';
+          setTimeout(function () { window.location.href = "/espace.html"; }, 1400);
         } else {
-          confirmBtn.style.display = "none";
           statusEl.innerHTML =
-            "<p>" + (data.error || "Linkul nu a putut fi verificat.") + "</p>";
-          showBack();
+            '<p class="ok">Connecté en tant que <span class="mail">' + mail + "</span>.</p>" +
+            "<p>Dernière étape : les informations de votre cabinet, nécessaires à la facturation.</p>";
+          actionsEl.innerHTML =
+            '<a href="/cabinet.html" class="btn">Enregistrer mon cabinet →</a>';
+          setTimeout(function () { window.location.href = "/cabinet.html"; }, 1800);
         }
       })
       .catch(function () {
         confirmBtn.disabled = false;
-        confirmBtn.textContent = "Confirmă accesul →";
-        statusEl.innerHTML = "<p>Eroare de conexiune. Încearcă din nou.</p>";
+        statusEl.innerHTML = '<p class="err">Erreur de connexion. Réessayez.</p>';
       });
   });
 })();
