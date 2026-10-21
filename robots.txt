@@ -1,4 +1,4 @@
-Sitemap: https://eu-ai-act.ro/sitemap.xml
+Sitemap: https://eu-112.eu/sitemap.xml
 
 User-agent: *
 Allow: /
